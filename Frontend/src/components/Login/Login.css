@@ -1,0 +1,153 @@
+.text-danger {
+    color: #dc3545 !important;
+  }
+  
+  .text-success {
+    color: #28a745 !important;
+  }
+  
+  .form-control.is-invalid,
+  .was-validated .form-control:invalid {
+    border-color: #dc3545;
+  }
+  
+  .form-control.is-valid,
+  .was-validated .form-control:valid {
+    border-color: #28a745;
+  }
+.main-login {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background: linear-gradient(to right, #f8b1844d 50%, #d3ab92ee 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-contain {
+    height: 75vh;
+    width: 70%;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2rem; */
+}
+
+.main-login .left-side {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    overflow: hidden;
+}
+
+.main-login .left-side .img-contain {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-login .left-side .img-contain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.main-login .right-side {
+    width: 48%;
+    height: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+
+
+.main-login .right-side input {
+    display: block;
+    width: 100%; /* Ensure full width for all input fields */
+    border: none;
+    height: 2.5rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box; /* Include padding and border in width */
+}
+.main-login .right-side input,
+#submit-btn {
+    display: block;
+    width: 100%;
+    border: none;
+    height: 2.5rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.show-password {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.show-password input[type="checkbox"] {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.show-password label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+.main-login .right-side input:hover,
+#submit-btn:hover {
+    box-shadow: 0 0 0.5rem 0.1rem #fe9955e1;
+}
+
+#submit-btn {
+    background: white;
+    color: #fe9955e1;
+    margin-top: 1rem;
+}
+
+#submit-btn:hover {
+    background-color: #fe9955e1;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 950px) {
+    .login-contain {
+        height: auto;
+        width: 90%;
+        padding: 1rem;
+        flex-direction: column;
+    }
+
+    .main-login .left-side,
+    .main-login .right-side {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .main-login .right-side input,
+    #submit-btn {
+        width: 90%;
+    }
+}

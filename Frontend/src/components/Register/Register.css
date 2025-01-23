@@ -1,0 +1,172 @@
+.main-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.main-register .leftside-register {
+  flex: 0.33;
+  background: #d3ab92ee;
+}
+
+.main-register .leftside-register .register-header {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-register .leftside-register .register-header #logo-img {
+  height: 80%;
+}
+
+.main-register .leftside-register .body {
+  margin: 2rem auto;
+  height: auto;
+  background: #d3ab92ee;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-register .leftside-register .body #body-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.main-register .rightside-register {
+  flex: 0.67;
+  background: #f8b1844d;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* padding: 1rem; */
+}
+
+.main-register .rightside-register .top-right {
+  text-decoration: none;
+  cursor: pointer;
+  color: #d3ab92ee;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+.main-register .rightside-register #link-signin {
+  text-decoration: none;
+  cursor: pointer;
+  color: #d3ab92ee;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.main-register .rightside-register #link-signin:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-register .rightside-register .body-right {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-register .rightside-register .body-right .avatar {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  /* margin: 1.5rem auto; */
+  background: #d3ab92ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.main-register .rightside-register .body-right .avatar img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main-register .rightside-register .body-right .container-register {
+  height: auto;
+  width: 60%;
+  margin: 2rem auto;
+  background: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.main-register .rightside-register .body-right .container-register .input-group {
+  width: 100%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.main-register .rightside-register .body-right .container-register .input-group h5 {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #000000ee;
+  margin-bottom: 0.5rem;
+}
+
+.main-register .rightside-register .body-right .container-register .input-group input {
+  width: 100%;
+  border: 1px solid #ced4da;
+  padding: 0.8rem;
+  border-radius: 0.25rem;
+  box-shadow: none;
+  transition: border-color 0.2s;
+}
+
+.main-register .rightside-register .body-right .container-register .input-group input:focus {
+  outline: none;
+  border-color: #000000ee;
+}
+:root {
+  --primary-color: #fe9955e1;
+  --secondary-color: white;
+}
+
+.main-register .rightside-register .body-right .container-register #sbtn {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.main-register .rightside-register .body-right .container-register #sbtn:hover,
+.main-register .rightside-register .body-right .container-register #sbtn:focus {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 850px) {
+  .main-register .leftside-register {
+    display: none;
+  }
+
+  .main-register .rightside-register {
+    flex: 1;
+    padding: 1rem;
+  }
+
+  .main-register .rightside-register .body-right .container-register {
+    width: 90%;
+  }
+
+  .main-register .rightside-register .body-right .container-register .input-group input {
+    margin: 0;
+    width: 100%;
+  }
+}

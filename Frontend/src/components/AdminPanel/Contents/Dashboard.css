@@ -1,0 +1,120 @@
+/* Dashboard Styling */
+.dashboard {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3px 15px;
+  
+}
+
+.add-product {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 800px; 
+  color: #d80000;
+}
+
+.add-product h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #c31d00;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.left {
+  width: 100%;
+  margin-bottom: 20px; /* Add space below the image */
+}
+
+.left img {
+  width: 100%;
+  max-width: 400px; /* Set a max width for the image */
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.left img:hover {
+  transform: scale(1.03); /* Slight zoom effect */
+}
+
+.right {
+  width: 100%;
+  color: #333;
+  /* background-color: #fff; Background color for the input box */
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Stack form elements in a single column */
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  width: 100%;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.add-product .right input[type="text"],
+textarea,
+select {
+  width: 100%; /* Make inputs take full width */
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 2px solid #ff4b2b;
+  box-shadow: 0 2px 4px rgba(255, 0, 0, 0.1);
+  color: #333;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.add-product .right input[type="text"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #ff416c;
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 100%; /* Make button take full width */
+  padding: 12px;
+  background-color: #ff416c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ee6161;
+  transform: translateY(-3px); /* Subtle lift effect on hover */
+}
+
+button[type="submit"]:active {
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .add-product {
+    margin-top: 30px;
+  }
+  .left img {
+    max-width: 100%; /* Ensure image scales on smaller screens */
+  }
+}

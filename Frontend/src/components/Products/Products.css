@@ -1,0 +1,135 @@
+/* Container for products */
+.products-container {
+    margin: 1rem;
+}
+
+/* Section heading container */
+.section-heading-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Section heading */
+.section-heading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Underline for section heading */
+.section-heading::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #f55858ee;
+    margin-top: 0.3rem;
+}
+
+/* Search container */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+/* Search input field */
+.search-input {
+    padding: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 0.5rem;
+    width: 180px;
+    font-size: 0.85rem;
+}
+
+/* Search button */
+.search-button {
+    padding: 0.3rem 0.6rem;
+    background-color: #f55858ee;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.search-button:hover {
+    background-color: #e84e4e;
+}
+
+/* Product display */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Individual product card */
+.product-card {
+    width: 200px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Product thumbnail image */
+.thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Product info section */
+.product-info {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+/* Product name */
+.product-name {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Review rating */
+.review-rating {
+    font-size: 0.9rem;
+    color: #ffd700;
+}
+
+/* Product price */
+.product-price {
+    font-size: 0.9rem;
+    color: #f55858ee;
+    font-weight: 500;
+}
+
+/* Responsive design */
+@media screen and (max-width: 900px) {
+    .products-container {
+        margin: 1rem;
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-input {
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
+
+    .search-button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,106 @@
+/* NavBar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50; /* Ensures it's above other content */
+    background-color: #fff; /* Visible background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 64px; /* Adjust if NavBar height changes */
+  }
+  
+  /* Container */
+  .order-list-container {
+    padding: 1.5rem;
+  }
+  
+  /* Heading */
+  .order-list-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748; /* Gray-800 */
+    margin: 1.5rem 0;
+  }
+  
+  /* Table Styling */
+  .order-table-container {
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .order-table thead {
+    background-color: #f7fafc; /* Gray-100 */
+    font-size: 0.875rem; /* Text-sm */
+    font-weight: 500;
+    color: #718096; /* Gray-600 */
+  }
+  
+  .order-table th,
+  .order-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #e2e8f0; /* Gray-200 */
+  }
+  
+  .order-table tbody tr:hover {
+    background-color: #f9fafb; /* Gray-50 */
+  }
+  
+  /* Product Details */
+  .product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .product-item {
+    margin-bottom: 1rem;
+  }
+  
+  .product-name {
+    font-weight: 600;
+    color: #2d3748; /* Gray-800 */
+  }
+  
+  .product-detail {
+    color: #4a5568; /* Gray-600 */
+  }
+  
+  .product-description {
+    font-size: 0.875rem;
+    color: #a0aec0; /* Gray-500 */
+  }
+  
+  /* Empty Orders Message */
+  .no-orders {
+    text-align: center;
+    color: #a0aec0; /* Gray-500 */
+    margin-top: 1.5rem;
+  }
+  
+  /* Loader */
+  .loader {
+    text-align: center;
+    padding: 1rem;
+    color: #a0aec0; /* Gray-500 */
+  }
+  
+  /* Error Message */
+  .error-message {
+    text-align: center;
+    padding: 1rem;
+    color: #e53e3e; /* Red-500 */
+  }
+  
+  /* Body Padding to Clear NavBar */
+  body {
+    padding-top: 64px; /* Same as NavBar height */
+  }
