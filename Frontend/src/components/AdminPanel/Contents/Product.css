@@ -1,28 +1,26 @@
-/* Product.css */
-
+/* General Table Styling */
 .products-container {
-    
-    overflow-x: auto;
-  }
-
+  overflow-x: auto;
+}
 
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid rgb(231, 20, 20);
+  border: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 
 thead {
-  background-color: #e23434;
+  background-color: #f44336;
+  color: white;
   font-weight: bold;
 }
 
-th,
-td {
+th, td {
   text-align: left;
-  padding: 8px;
-  border-bottom: 1px solid rgb(241, 163, 163);
-  border-right: 1px solid rgb(252, 166, 166);
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 th:last-child,
@@ -32,28 +30,191 @@ td:last-child {
 
 .product-image {
   max-width: 40px;
-  /* Adjust the value for width */
   max-height: 40px;
-  /* Adjust the value for height */
-  width: auto;
-  height: auto;
   border-radius: 8px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .product-actions {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
 }
 
 .product-actions i {
   cursor: pointer;
   font-size: 18px;
-  color: #ff1100;
-  transition: color 0.3s;
+  color: #f44336;
+  transition: transform 0.2s, color 0.3s;
 }
 
 .product-actions i:hover {
-  color: #b30000;
+  color: #b71c1c;
+  transform: scale(1.1);
+}
+
+/* Popup Modal Styling */
+.edit-product-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-product-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.edit-product-content h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fafafa;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #f44336;
+  outline: none;
+  background: #fff;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.modal-actions button[type="button"] {
+  background: #f2f2f2;
+  color: #555;
+}
+
+.modal-actions button[type="button"]:hover {
+  background: #e0e0e0;
+}
+
+.modal-actions button[type="submit"] {
+  background: #f44336;
+  color: white;
+}
+
+.modal-actions button[type="submit"]:hover {
+  background: #d32f2f;
+}
+
+.edit-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.edit-modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.modal-actions button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-actions button[type="button"] {
+  background: #ccc;
+  color: black;
+}
+
+.modal-actions button[type="submit"] {
+  background: #e23434;
+  color: white;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
