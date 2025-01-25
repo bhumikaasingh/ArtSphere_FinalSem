@@ -3,11 +3,14 @@ import orderService from "../../services/orderService";
 import NavBar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import "./OrderList.css";
+import { useSearchParams } from "react-router-dom";
 
 const OrderList = () => {
   const [orders, setOrders] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+  const [searchParams] = useSearchParams();
+  const pidx = searchParams.get("pidx");
 
   useEffect(() => {
     const fetchOrders = async () => {
@@ -17,7 +20,9 @@ const OrderList = () => {
         if (response && response.data && Array.isArray(response.data.data)) {
           setOrders(response.data.data);
         } else {
-          throw new Error("Unexpected response format: " + JSON.stringify(response));
+          throw new Error(
+            "Unexpected response format: " + JSON.stringify(response)
+          );
         }
       } catch (err) {
         setError(err.message || "An error occurred while fetching orders.");
@@ -27,6 +32,33 @@ const OrderList = () => {
     };
 
     fetchOrders();
+
+    const verifyPayment = async () => {
+      try {
+        setLoading(true);
+
+        const request = await fetch(`http://localhost:5500/order/${pidx}`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${window.localStorage.getItem("token")}`,
+          },
+        });
+
+        if (request.ok) {
+          fetchOrders();
+          window.history.replaceState({}, document.title, "/order");
+        }
+      } catch (err) {
+        setError(err.message || "An error occurred while verifying payment.");
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    if (pidx) {
+      verifyPayment();
+    }
   }, []);
 
   if (loading) {
@@ -45,8 +77,12 @@ const OrderList = () => {
     <>
       <NavBar />
 
-      <div className="flex-grow p-6 max-w-7xl mt-64 mx-auto "> {/* Added mt-16 for margin top */}
-        <h2 className="text-3xl font-semibold text-gray-800 mt-6 mb-6">Your Orders</h2>
+      <div className="flex-grow p-6 max-w-7xl mt-64 mx-auto ">
+        {" "}
+        {/* Added mt-16 for margin top */}
+        <h2 className="text-3xl font-semibold text-gray-800 mt-6 mb-6">
+          Your Orders
+        </h2>
         {orders.length > 0 ? (
           <div className="overflow-x-auto bg-white shadow-md rounded-lg">
             <table className="w-full table-auto text-left">
@@ -67,28 +103,42 @@ const OrderList = () => {
                       Rs. {parseFloat(order.amount).toFixed(2)}
                     </td>
                     <td className="px-4 py-3">
-                      {Array.isArray(order.products) && order.products.length > 0 ? (
+                      {Array.isArray(order.products) &&
+                      order.products.length > 0 ? (
                         <ul className="space-y-2">
                           {order.products.map((product, index) => (
-                            <li key={product._id || index} className="space-y-1">
-                              <div className="font-semibold text-gray-800">{product.name}</div>
-                              <div className="text-gray-600">
-                                Price: Rs. {parseFloat(product.price).toFixed(2)}
+                            <li
+                              key={product._id || index}
+                              className="space-y-1"
+                            >
+                              <div className="font-semibold text-gray-800">
+                                {product.name}
                               </div>
-                              <div className="text-gray-600">Quantity: {order.quantity[index]}</div>
                               <div className="text-gray-600">
-                                Subtotal: Rs. {(
-                                  parseFloat(product.price) * order.quantity[index]
+                                Price: Rs.{" "}
+                                {parseFloat(product.price).toFixed(2)}
+                              </div>
+                              <div className="text-gray-600">
+                                Quantity: {order.quantity[index]}
+                              </div>
+                              <div className="text-gray-600">
+                                Subtotal: Rs.{" "}
+                                {(
+                                  parseFloat(product.price) *
+                                  order.quantity[index]
                                 ).toFixed(2)}
                               </div>
                               <div className="text-gray-500 text-sm">
-                                {product.description || "No description available."}
+                                {product.description ||
+                                  "No description available."}
                               </div>
                             </li>
                           ))}
                         </ul>
                       ) : (
-                        <span className="text-gray-500">No products available.</span>
+                        <span className="text-gray-500">
+                          No products available.
+                        </span>
                       )}
                     </td>
                   </tr>
@@ -103,7 +153,6 @@ const OrderList = () => {
         )}
       </div>
       <Footer />
-
     </>
   );
 };

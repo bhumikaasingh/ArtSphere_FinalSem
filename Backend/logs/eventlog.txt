@@ -3008,3 +3008,302 @@ e537d5da-4e26-45df-9d62-edbe16c2245f	20250123	17:49:30	 GET /users/profile/	 und
 ea84bec4-0815-4082-89dd-9c044d0430cd	20250123	17:57:15	 GET /users/profile	 undefined
 836a1413-c0ff-4fc6-bfb8-743bb4430851	20250123	17:57:15	 GET /users/profile/	 undefined
 95ecb6ef-d669-4220-9186-6cc8a34c6bb0	20250123	17:57:15	 GET /users/profile/	 undefined
+e8b9493e-49b1-4426-96de-b848a65fa58f	20250123	18:28:41	 GET /users/profile	 undefined
+9162be54-51b2-4751-b6af-5275232d2786	20250123	18:28:41	 GET /users/profile/	 undefined
+d662f726-528e-43d9-b154-cfbafb6dfe7b	20250123	18:28:41	 GET /users/profile/	 undefined
+4e0a92d8-2d1a-470c-8d27-982fa1521d5a	20250123	20:34:33	 GET /users/profile	 undefined
+6a56e1fc-2832-4773-825d-d4ad75c2135a	20250123	20:34:33	 GET /users/profile/	 undefined
+1823b38c-5c95-49d9-8699-7145c8af4272	20250123	20:34:33	 GET /users/profile/	 undefined
+f5081665-a4bc-4551-8257-2ac51de07e2b	20250123	20:35:34	 GET /users/profile	 undefined
+6ded2125-d783-4f51-922f-e33a891d1ae7	20250123	20:35:34	 GET /products	 undefined
+74022345-fe46-4ee3-a38d-28caf1139197	20250123	20:35:34	 GET /category	 undefined
+8bec5ff1-7bc5-49a5-922b-f4a1a580973b	20250123	20:35:34	 GET /order	 undefined
+b13fac59-45b6-488f-af31-a995b37dd1b3	20250123	20:35:34	 GET /users/	 undefined
+5fed4bd3-3cd6-4345-851d-9908bb7c691c	20250123	20:35:34	 GET /products	 undefined
+228a9370-c8f5-4a17-9ddf-ec4bfbf8099b	20250123	20:35:34	 GET /category	 undefined
+8873363b-da34-4850-bca2-5385bd63a014	20250123	20:35:34	 GET /order	 undefined
+765d05ef-a9b7-439e-9b67-586961ea3960	20250123	20:35:35	 GET /users/	 undefined
+790ffb1f-b78c-47ee-930e-51d24417a503	20250123	20:35:44	 GET /users/	 undefined
+076d84a9-3fe7-4929-a44b-b47106211554	20250123	20:35:44	 GET /users/	 undefined
+292a438d-ac0c-411e-a2cd-4e7add8ef821	20250123	20:35:44	 GET /images/user_image/IMG-1736693889675.png	 undefined
+15f63e08-5f90-4eca-b4da-72dd2f886bb3	20250123	20:35:44	 GET /images/user_image/IMG-1736612642394.jpeg	 undefined
+2b07909f-afd3-41a3-ab85-9eaea1c29593	20250123	20:35:54	 GET /products	 undefined
+20eb1ee1-5331-44d9-8f1a-bd6d53dff950	20250123	20:35:54	 GET /products	 undefined
+cc1c5d27-0a71-413a-8e4a-739e02ff039e	20250123	20:35:54	 GET /images/product_image/image-1737642549537.jpg	 undefined
+92a7fd6c-b00c-4507-ab5e-f7f86ba5e7d5	20250123	20:35:58	 GET /products	 undefined
+b9a8a5f5-67db-4cd1-a9de-b7ac48c0aa9f	20250123	20:35:58	 GET /order	 undefined
+28ef5696-c015-4f53-90b7-15459ed7dcff	20250123	20:35:58	 GET /users/	 undefined
+3080b804-6f8f-421c-aa94-fd1a6e26b1fa	20250123	20:35:58	 GET /users/	 undefined
+20df6fdb-4a97-4d61-877d-c8dec064806a	20250123	20:35:58	 GET /products	 undefined
+0fec5fe6-5f6b-4122-91d8-52e8815042f3	20250123	20:35:58	 GET /order	 undefined
+9ed8f998-4599-43c4-b15f-b230645bebe5	20250123	20:36:02	 GET /category	 undefined
+fafec7b4-a5e1-4cc3-b06f-4343c221d15c	20250123	20:36:02	 GET /category	 undefined
+dd1374bb-24d6-4a57-ba70-aae4966c1ca8	20250123	20:36:06	 GET /products	 undefined
+b5e4a299-bac6-417a-b831-67c6966e1e6a	20250123	20:36:06	 GET /category	 undefined
+73a0a545-4343-4c0a-ac8b-24439bba256a	20250123	20:36:06	 GET /order	 undefined
+cf8e09d6-1ee8-4cbd-9435-407622753af4	20250123	20:36:06	 GET /users/	 undefined
+7939248c-a629-4618-b007-85aa4995efe0	20250123	20:36:06	 GET /order	 undefined
+37d251b3-6be8-418b-b967-fe850ea54a31	20250123	20:36:06	 GET /products	 undefined
+7eaf05d6-3714-4da9-817a-03502219da8f	20250123	20:36:06	 GET /category	 undefined
+801b145b-cb46-41c5-8cff-e2eba0432b6e	20250123	20:36:06	 GET /users/	 undefined
+6d3bca8b-128b-4dba-8715-d2ab0ce97ddf	20250123	20:36:59	 POST /products	 undefined
+94a18096-0bcb-4cf6-9529-6d27ea115a3a	20250123	20:37:04	 GET /products	 undefined
+7e585ca5-096b-4370-895f-24e19334f05c	20250123	20:37:04	 GET /products	 undefined
+0b2b1153-54ad-48a7-9816-69ece1405c65	20250123	20:37:04	 GET /images/product_image/image-1737642549537.jpg	 undefined
+230a31d8-e897-4852-8018-0c193d77dbeb	20250123	20:37:04	 GET /images/product_image/image-1737643919165.jpg	 undefined
+a3ccde1e-2e5e-4159-bf42-7fc624971a33	20250123	20:39:03	 GET /users/profile	 undefined
+2b5daed7-a3b8-485d-ae9d-82894bd9eb48	20250123	20:39:03	 GET /users/profile/	 undefined
+e8e0b80b-507c-4e5e-8c34-82db9880a3cf	20250123	20:39:03	 GET /users/profile/	 undefined
+cd7dcf67-3764-4090-8251-ebca8c359e83	20250123	20:39:05	 GET /users/profile/	 undefined
+abf4c6d1-211d-42a1-9f57-809c7c3b7ee5	20250123	20:39:06	 GET /users/profile/	 undefined
+0abe846d-fbc8-422e-9308-0e608b815195	20250123	20:39:13	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+e162b1ae-f0f6-4dd2-b1a2-b4d49b1b8159	20250123	20:39:13	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+20eab625-35e6-42be-af56-6e9638207a29	20250123	20:39:17	 GET /products	 undefined
+5bfd1bc6-8400-4eeb-8d67-e8dfb3542240	20250123	20:39:17	 GET /users/profile/	 undefined
+748eedcd-656e-4d97-8547-71f2aa3ad028	20250123	20:39:17	 GET /products	 undefined
+4b049070-1f32-46af-99b0-3b0eec87759c	20250123	20:39:17	 GET /users/profile/	 undefined
+161c898e-50b0-4582-9131-710c686a7a3b	20250123	20:39:17	 GET /products	 undefined
+49c526b5-9c14-43bc-9d9c-387ac32d4906	20250123	20:39:17	 GET /images/product_image/image-1737642549537.jpg	 undefined
+3c0b1179-268b-4235-9e75-f76db4a64d96	20250123	20:39:17	 GET /images/product_image/image-1737643919165.jpg	 undefined
+04f97aac-d78d-467c-871a-5d07fad26308	20250123	20:39:17	 GET /products	 undefined
+e8e1a970-c8b8-4ec0-b6fb-cf7c4369cb21	20250123	20:39:23	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+82a7dd55-3dbd-47e5-8730-e981dfba6ed0	20250123	20:39:23	 GET /users/profile/	 undefined
+d3cd2460-27a1-4286-b7ca-d32fc1044874	20250123	20:39:23	 GET /users/profile/	 undefined
+5a97b1a2-9dc9-4c10-9217-165592730821	20250123	20:39:23	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+f9e9f9c8-dd74-4693-864e-ad0ffbe8e771	20250123	20:39:28	 POST /cart	 undefined
+5f64aa69-40ef-4407-84dc-01bf54514c36	20250123	20:39:35	 GET /users/profile/	 undefined
+9c62b6cf-078c-400a-9bf6-b0f9aeb4749e	20250123	20:39:35	 GET /users/profile/	 undefined
+33263f25-0862-49e5-8126-ed822653631d	20250123	20:39:35	 GET /images/user_image/IMG-1736612642394.jpeg	 undefined
+a323d7f9-0c48-4fa5-ad51-b46a4704897b	20250123	20:39:35	 GET /users/profile/	 undefined
+bd49f7d9-01e7-4dea-8903-08279090b9bf	20250123	20:39:35	 GET /users/profile/	 undefined
+a4134045-7be0-4f9d-ad5a-f9002c0e5e9e	20250123	20:39:39	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+011fc8eb-26ab-47f5-9b04-725904eebcef	20250123	20:39:39	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+c7bb007d-b3e0-4aec-94e5-86c0ceef0003	20250123	20:39:42	 POST /order/	 undefined
+99c857b5-f552-4237-9bc5-098c3ac91efc	20250123	20:39:42	 DELETE /cart/user/67829b22e52128981ae4ad27	 undefined
+569d9b35-61fe-49ab-9aca-4756f4f33c55	20250123	20:39:47	 GET /order/67829b22e52128981ae4ad27	 undefined
+4c87bfef-4ee7-450e-ba67-f5c5d8694337	20250123	20:39:48	 GET /order/67829b22e52128981ae4ad27	 undefined
+1f9a7340-486c-4f61-b60c-df4c017429a8	20250123	20:39:48	 GET /users/profile/	 undefined
+ca440e2c-d181-4710-877c-c8a9602ab660	20250123	20:39:48	 GET /users/profile/	 undefined
+9c38c3fa-7dc8-46f6-b661-088db73c4a5e	20250123	20:39:54	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+0cd43d0f-e2a2-41bf-a6ec-1960afda03e4	20250123	20:39:54	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+6a713522-f216-42e8-9abe-6132c11d616e	20250123	20:39:57	 GET /products	 undefined
+d24b7c78-a584-4b55-ab12-cff8d72aa49b	20250123	20:39:57	 GET /users/profile/	 undefined
+6be885e3-00fc-419c-a50a-06e36b95c40b	20250123	20:39:57	 GET /images/product_image/image-1737642549537.jpg	 undefined
+21429349-54a3-46b7-b600-d5dddb58023a	20250123	20:39:57	 GET /products	 undefined
+116f1384-1b53-437e-9ee0-fc5a1ccc43cc	20250123	20:39:57	 GET /users/profile/	 undefined
+4e78df62-e339-427f-b22c-60daeb5175f5	20250123	20:39:57	 GET /products	 undefined
+2a421437-eaa2-4d10-b04a-7fb1f187b2f8	20250123	20:39:57	 GET /products	 undefined
+46b0b026-669e-4213-8078-82550d2cf463	20250123	20:39:59	 GET /users/profile/	 undefined
+886c6e17-a5e2-4fc6-b31a-ec5824b71690	20250123	20:39:59	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+c54fdffe-00e7-4930-950b-1ff07fd3dc32	20250123	20:39:59	 GET /users/profile/	 undefined
+b59f53f8-e4c3-4dc0-a0e9-76566ef12bfd	20250123	20:39:59	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+f055e2ee-a5e3-4853-9185-734bc5f6834f	20250123	20:40:21	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+0701723b-6211-4419-9909-e1de28aa85b2	20250123	20:40:22	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+18a97af2-dc9b-4977-a477-e7ee02004ad2	20250123	20:40:23	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+d6cbd957-1c96-4025-9214-c0e5019f7318	20250123	20:40:24	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+efa4fe57-98c1-4797-98e2-afca8bc9ec2f	20250123	20:40:24	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+d2503fb5-c6dc-44a7-83ed-ff5017ca2900	20250123	20:40:25	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+568730d7-3f06-4bb2-b22e-27e8b7294cd9	20250123	20:40:49	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+87a104d3-0089-43ae-b4fa-d49f36392bb3	20250123	20:40:53	 POST /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+fa52f6de-f3d6-403b-b4ab-5dc770926b41	20250123	20:45:12	 GET /order/67829b22e52128981ae4ad27	 undefined
+714361f5-6a69-4ceb-8cf4-c6b34e5bb3af	20250123	20:45:12	 GET /order/67829b22e52128981ae4ad27	 undefined
+4de4fd15-9e43-40b0-a1b2-2ecd88e29c5a	20250123	20:45:12	 GET /users/profile/	 undefined
+31d5e8a9-59d5-4269-8eb6-dde0f6739cb3	20250123	20:45:12	 GET /users/profile/	 undefined
+e87306ea-2e33-4a43-a2a6-64d73bcc2305	20250123	20:48:34	 GET /users/profile	 undefined
+f376f905-50f8-4916-bca2-04a930e36de1	20250123	20:48:34	 GET /products	 undefined
+104112b7-1e35-4f35-aaa4-a6889f8684e1	20250123	20:48:34	 GET /order	 undefined
+d187ad1d-429a-46fd-83d8-b96173e98699	20250123	20:48:34	 GET /category	 undefined
+6d0b4c4a-8182-44f8-bd5a-ddefbac48c7b	20250123	20:48:34	 GET /users/	 undefined
+de0aa3cc-4b83-4bf0-b134-2d8808db47ad	20250123	20:48:34	 GET /products	 undefined
+4baa7f84-1fc2-4c39-a167-f1b0b79c9be4	20250123	20:48:34	 GET /order	 undefined
+457045e9-8f8f-4654-9eae-ec15e8d29fc0	20250123	20:48:34	 GET /category	 undefined
+e2e367c1-39b6-4c32-856c-06026eee89f9	20250123	20:48:34	 GET /users/	 undefined
+a7c01a7b-c07b-4c02-9aa1-d52d07572c71	20250123	20:48:36	 GET /order	 undefined
+936d6de3-2ee8-4c1e-bebf-2c515b4c2cba	20250123	20:48:36	 GET /products	 undefined
+2b6b99af-9f81-4fec-89e9-9daf047f43fa	20250123	20:48:36	 GET /users/	 undefined
+aa23750b-3212-40ad-bf13-6e6ec7ecd55e	20250123	20:48:36	 GET /order	 undefined
+3e5a2968-2336-496c-8c33-889a1a8dc423	20250123	20:48:36	 GET /users/	 undefined
+df9097f0-4f7a-417e-9c17-d8f45216581a	20250123	20:48:36	 GET /products	 undefined
+b67d7883-87e9-4957-9dd2-a3787368e2e9	20250123	20:48:54	 GET /products	 undefined
+8cbfdc9d-aa0a-449c-b320-3944bdf9ccd8	20250123	20:48:54	 GET /products	 undefined
+e0c0d70d-507d-454f-abb9-b1216dbdcda3	20250123	20:48:54	 GET /images/product_image/image-1737642549537.jpg	 undefined
+44a9cfb2-8fbb-472e-b204-ae2ba2a4efff	20250123	20:48:55	 GET /images/product_image/image-1737643919165.jpg	 undefined
+68490425-d684-43a9-8bfd-bfd5e914e2cc	20250123	20:49:00	 DELETE /products/679252354514efc346dbb0de	 undefined
+bc06d80d-8999-4c39-8dd6-906193216bf1	20250123	20:49:02	 GET /products	 undefined
+371e1acb-04c7-4000-8390-8c239605c5b2	20250123	20:49:02	 GET /order	 undefined
+4ba822b7-fa55-42de-af79-eca7078b57e8	20250123	20:49:02	 GET /users/	 undefined
+0c508146-65d1-4cba-95ca-212858fabce1	20250123	20:49:02	 GET /order	 undefined
+88d084dc-7669-4598-94d0-af61ea9d97fe	20250123	20:49:02	 GET /products	 undefined
+9a6dc1b4-a4e8-4a87-b010-c36814480102	20250123	20:49:02	 GET /users/	 undefined
+7f6d8db3-3fe4-4eeb-ac89-d28d0837c00b	20250123	20:49:08	 GET /users/profile	 undefined
+b1c94f4c-e2a7-40fe-9e7c-598e377d0182	20250123	20:49:08	 GET /order	 undefined
+956ccf82-ff80-4e91-b24b-d8d238591211	20250123	20:49:08	 GET /products	 undefined
+7d97c639-ae83-4410-a616-5e290faf00ce	20250123	20:49:08	 GET /users/	 undefined
+811b0acd-7dfd-45e3-a0a5-544ddf3a3a07	20250123	20:49:08	 GET /category	 undefined
+322f9a53-5456-4110-8a9d-6565244d6180	20250123	20:49:08	 GET /order	 undefined
+1f3e7a61-0f35-4e89-bd81-0fa3f066c94d	20250123	20:49:08	 GET /users/	 undefined
+ae1ff1bf-842f-4882-accd-6132557e5108	20250123	20:49:08	 GET /category	 undefined
+3d3f6b38-4ca0-4f84-8acc-1ab7b0a6b380	20250123	20:49:08	 GET /products	 undefined
+e939ea2a-edf5-498c-b406-4829d10482a7	20250123	20:49:10	 GET /order	 undefined
+251df53a-3d51-4780-b990-c21b607b834e	20250123	20:49:10	 GET /products	 undefined
+254444ef-1a83-41c8-a6bb-3e163191a96d	20250123	20:49:10	 GET /users/	 undefined
+aba1768a-16e4-4c4d-96ec-15cd228e2dec	20250123	20:49:10	 GET /order	 undefined
+3503ad9e-82a2-4f86-a98a-18a3ee18dd4a	20250123	20:49:10	 GET /products	 undefined
+e3e7f523-3181-4f39-94a3-fc274b7efded	20250123	20:49:10	 GET /users/	 undefined
+6915fa39-a9f0-43dc-830a-d3638bfcaf56	20250123	20:49:29	 GET /products	 undefined
+7f04c09f-f87c-4de4-8786-6831d31cd289	20250123	20:49:29	 GET /products	 undefined
+a0719405-e989-47d8-966e-ea716c34374b	20250123	20:49:29	 GET /images/product_image/image-1737643919165.jpg	 undefined
+cb25012b-2757-4384-8967-830011e0e83d	20250124	07:10:21	 GET /users/profile	 undefined
+30967502-44ee-42fe-8ea8-3bf3bdadf7cd	20250124	07:10:21	 GET /users/profile/	 undefined
+2c61c333-3688-4231-8e8e-e923ba9235ae	20250124	07:10:26	 GET /users/profile MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\model.js:5433:32)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:5020:15)
+    at getUserByID (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:68:10)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+c2ce2ecd-dffa-45ba-981a-8022446bda07	20250124	07:10:26	 GET /users/profile/ MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\model.js:5433:32)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:5020:15)
+    at getUserByID (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:68:10)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+36423bdc-4cce-4bab-bd57-c3b55288842c	20250124	07:10:26	 GET /users/profile/	 undefined
+6f85adfb-d794-443a-ade0-8a09680cf77d	20250124	07:10:31	 GET /users/profile/ MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+    at Model.$wrapCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\model.js:5433:32)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4938:21
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+    at model.Query.exec (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:4937:10)
+    at Query.then (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\mongoose\lib\query.js:5020:15)
+    at getUserByID (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:68:10)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+4b8a845b-aedf-4f50-8fda-20ef1efd7b71	20250124	09:03:23	 GET /users/profile	 undefined
+00a89c08-e153-4a79-b87e-a875a964f755	20250124	09:03:23	 GET /users/profile/	 undefined
+9fc1aa48-6323-43d7-a438-4e7d55007ab3	20250124	09:03:24	 GET /users/profile/	 undefined
+08441e6c-a70d-404f-adf5-d48e65c78749	20250124	09:03:43	 GET /users/profile/	 undefined
+0f553477-6637-4c51-8e7a-cc86dbc03f39	20250124	09:03:43	 GET /users/profile/	 undefined
+70c61b84-96b7-4171-a6df-867b880da787	20250124	09:03:48	 GET /users/profile/	 undefined
+97925550-a2ec-446b-b8bc-c6445048558a	20250124	09:03:48	 GET /products	 undefined
+ccddc394-1b28-45cb-b28d-79d822c345b4	20250124	09:03:48	 GET /users/profile/	 undefined
+ac3b50ba-1add-413e-a09b-caea2d2d4163	20250124	09:03:48	 GET /products	 undefined
+6842a341-e2a5-4018-a8fd-8465e0ffc587	20250124	09:03:49	 GET /products	 undefined
+07f90ccb-af75-4931-8f2f-49fa4e9fa005	20250124	09:03:49	 GET /images/product_image/image-1737643919165.jpg	 undefined
+16a8a974-28a1-4115-a6c4-bf5f59b949fb	20250124	09:03:49	 GET /products	 undefined
+e8f9fb96-6c99-4983-be32-9cd790151422	20250124	09:03:52	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+5a28386c-ac02-472f-8631-47c7fca9ac23	20250124	09:03:52	 GET /users/profile/	 undefined
+f447e26f-3c18-4753-aac5-ecf3c9825b9c	20250124	09:03:52	 GET /users/profile/	 undefined
+4f8204f1-f230-4a0d-8300-639c02e4d2fa	20250124	09:03:52	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+7801c857-5adc-4c1c-8059-4dfc38031c2a	20250124	09:04:01	 POST /cart	 undefined
+facf7542-2af3-4740-bf9c-8b767b7dc8e5	20250124	09:04:05	 GET /users/profile/	 undefined
+f0e7b587-d6a2-4a2c-b7a3-4519e5c165fe	20250124	09:04:05	 GET /users/profile/	 undefined
+9ebf1a38-47fe-4e85-9077-ef946975ce9e	20250124	09:04:10	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+00b4bd99-79c5-40af-b56f-d026076624fc	20250124	09:04:11	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+3e926c86-4b01-4cde-bd84-0e7ca337a3fd	20250124	09:04:24	 GET /users/profile/	 undefined
+f5ffd731-b189-4437-8cd7-a0d16807c68a	20250124	09:04:24	 GET /users/profile/	 undefined
+1e3b092b-2769-4d5e-b6a9-fd73bc3e045d	20250124	09:04:24	 GET /images/user_image/IMG-1736612642394.jpeg	 undefined
+1f41a5fc-2b8c-4684-aa29-3b93cb478554	20250124	09:04:24	 GET /users/profile/	 undefined
+bf0e65b6-07fe-4b08-99eb-dacccfc7a83a	20250124	09:04:24	 GET /users/profile/	 undefined
+90100398-2fee-4a8a-887f-1e0541517fc5	20250124	09:04:32	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+18b0a1cb-1aa6-4837-b01b-1891884342ed	20250124	09:04:32	 GET /cart/user/67829b22e52128981ae4ad27	 undefined
+476ee204-1a89-4324-8ee3-c7c4ef01eef4	20250124	09:04:32	 GET /images/product_image/image-1737643919165.jpg	 undefined
+e9a9eacc-f1e1-4258-9d5f-bc83e37459b4	20250124	09:04:36	 GET /order/67829b22e52128981ae4ad27	 undefined
+657a2308-c8e6-4807-84c5-bb3649aaa03c	20250124	09:04:36	 GET /order/67829b22e52128981ae4ad27	 undefined
+45b1d245-3977-4074-9ec8-36f342b62ede	20250124	09:04:36	 GET /users/profile/	 undefined
+8b152402-547a-4a8e-bc05-51123dfaf63a	20250124	09:04:36	 GET /users/profile/	 undefined
+3fb4b99b-8d5d-403a-9b5e-c87f606389e4	20250124	09:04:43	 GET /users/profile	 undefined
+ebb918e9-e284-409d-b0cb-266e94dcfd22	20250124	09:04:43	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+0a4f1ebd-4527-4f6d-a067-08b7836c4d6f	20250124	09:04:47	 GET /users/profile	 undefined
+45bfc83a-f98c-43fc-adb2-9d89f53511be	20250124	09:04:47	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+8e444a13-d7cc-4308-84f8-28eaeca7dcbb	20250124	09:05:14	 POST /users/login	 undefined
+d173bdb0-99c0-4a35-a800-06c4f2d8408b	20250124	09:05:15	 GET /products	 undefined
+e539cde6-9500-481d-83ca-19d76166251c	20250124	09:05:15	 GET /category	 undefined
+a2ef6ec0-95c2-44eb-875f-92277412637e	20250124	09:05:15	 GET /order	 undefined
+8509352c-ff60-4389-a885-26621da06607	20250124	09:05:15	 GET /users/	 undefined
+cdf1bcdc-3d5b-4ac9-ae26-6dd047958a1f	20250124	09:05:15	 GET /products	 undefined
+14d40f16-931c-4cc2-b413-86033bbe05cd	20250124	09:05:15	 GET /category	 undefined
+c606d3c3-69fc-40b5-ad4c-24090aafdad6	20250124	09:05:15	 GET /order	 undefined
+48566dd5-5cca-47c0-b9cd-b907906f35ba	20250124	09:05:15	 GET /users/	 undefined
+7948782f-1ee0-4c76-ab5e-dc32504504d6	20250124	09:05:21	 GET /users/	 undefined
+89a39c1a-9749-4bf2-8f3f-49c59a23ff91	20250124	09:05:22	 GET /users/	 undefined
+1f90959e-df48-4b5f-9440-faddb02e2815	20250124	09:05:22	 GET /images/user_image/IMG-1736693889675.png	 undefined
+9e0e908e-0b7d-41fc-a7f9-5e800c5e855b	20250124	09:05:22	 GET /images/user_image/IMG-1736612642394.jpeg	 undefined
+ac047098-86ca-4c1b-beb3-522815a08e42	20250124	09:05:26	 GET /products	 undefined
+778a33cd-87ef-4ed0-92a1-1a0f63e3d704	20250124	09:05:26	 GET /products	 undefined
+24b36f90-b6e6-49fc-ac07-7a62250c1ade	20250124	09:05:26	 GET /images/product_image/image-1737643919165.jpg	 undefined
+fe7e0a7a-fd01-403a-b1a0-761836040e34	20250124	09:05:32	 GET /products	 undefined
+e0c428cf-5f83-4928-b8b7-82a18e1abf0e	20250124	09:05:32	 GET /order	 undefined
+352c625a-00f3-410a-b884-a15b751faec4	20250124	09:05:32	 GET /users/	 undefined
+d37cb99d-364c-447c-891e-f85811706e28	20250124	09:05:32	 GET /products	 undefined
+8022d8be-7034-43e6-9e9f-c85a5262d387	20250124	09:05:32	 GET /users/	 undefined
+7f4f05c9-ba35-4d77-858c-3182fdb9cef0	20250124	09:05:32	 GET /order	 undefined
+14ac36eb-8f68-4a5b-90cf-a1e5539ed813	20250124	09:05:34	 GET /category	 undefined
+2d35a602-b127-4309-8801-29aef0a8a6a9	20250124	09:05:34	 GET /category	 undefined
+e0a382dd-60d6-40e1-8774-6d42fe7636fe	20250124	09:05:41	 GET /users/profile	 undefined
+c6374a6c-b96d-4732-8a83-2aacf5de88bd	20250124	09:05:41	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+da9098c0-ce2a-4d19-9ba6-5476aac0f8c6	20250124	09:05:43	 GET /users/profile	 undefined
+a3e73f44-c2f5-4cd2-810e-d8e6f57c9d1e	20250124	09:05:43	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+d6b4fa27-a5fb-4183-a890-facd939f4584	20250124	09:05:49	 POST /users/login	 undefined
+20f2ae1b-21f5-4b73-9ce8-305496fad7bd	20250124	09:06:10	 GET /users/profile/	 undefined
+d5664c6f-043b-4b02-ad96-52eeab2e522d	20250124	09:06:10	 GET /users/profile/	 undefined
+4b089628-4a63-43fa-bb68-8369f502d1a2	20250124	09:07:05	 GET /users/profile/	 undefined
+9e24003d-a7e4-4ea2-8f07-5b3eddd056ed	20250124	09:07:05	 GET /users/profile/	 undefined
+976b110c-e5ef-46a1-98ef-84dfaba5f7a0	20250124	09:07:05	 GET /users/profile/	 undefined
+9a99fc8d-dc80-48f4-a59c-ae1f19bb4051	20250124	09:07:06	 GET /users/profile/	 undefined
+e89d9c9d-5665-4bfc-a70e-53d8b5da4ea0	20250124	09:07:17	 PUT /users/67829b22e52128981ae4ad27	 undefined
+c3605ed4-11ce-4a1d-9132-354d09f72a30	20250124	09:09:37	 PUT /users/67829b22e52128981ae4ad27	 undefined
+4b15cc58-fd77-49d8-80c5-e10db00bba00	20250124	09:09:38	 PUT /users/67829b22e52128981ae4ad27	 undefined
+6611944f-ba73-424e-aac6-ab9c90361caf	20250125	07:39:49	 GET /users/profile	 undefined
+6a90401c-1c48-4a65-8fb7-08ebc11746ce	20250125	07:39:49	 GET /users/profile/	 undefined
+967ba846-e233-4903-b3b9-f5886ff19e31	20250125	07:39:49	 GET /users/profile/	 undefined

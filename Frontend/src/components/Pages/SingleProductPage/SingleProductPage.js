@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './SingleProductPage.css';
-import { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
 import { FaCartPlus } from "react-icons/fa";
 import { message } from 'antd';
 import CartService from '../../../services/cartService';
 import NavBar from '../../Navbar/Navbar';
-import Footer from '../../Footer/Footer'
-import ProductService from '../../../services/productService'; // Service to fetch product and reviews
+import Footer from '../../Footer/Footer';
+import ProductService from '../../../services/productService';
 
 const SingleProductPage = ({ product }) => {
     const { id } = useParams();
@@ -16,54 +15,66 @@ const SingleProductPage = ({ product }) => {
     const [rating, setRating] = useState(0);
     const [comment, setComment] = useState('');
 
+    // Fetch reviews on component mount
     useEffect(() => {
-        // Fetch the product reviews when the component mounts
         ProductService.getProductReviews(id)
             .then((response) => {
-                if (response.status === 200) {
-                    setReviews(response.data);
+                // console.log("Raw API Response:", response);
+                // Check if response is directly an array
+                if (Array.isArray(response)) {
+                    setReviews(response); // Set reviews directly
+                } else if (response?.reviews && Array.isArray(response.reviews)) {
+                    setReviews(response.reviews); // Fallback if it's nested in 'reviews'
+                } else {
+                    message.error("Unexpected response format.");
                 }
             })
             .catch((error) => {
-                console.error('Error fetching reviews:', error);
+                console.error("Error fetching reviews:", error);
+                message.error("Failed to fetch reviews.");
             });
     }, [id]);
-
+    // Add to cart function
     const handleAddToCart = (product, quantity, amount) => {
         CartService.addtocart({ product, quantity, amount })
             .then((response) => {
                 if (response.status === 201) {
                     message.success('Product added to cart successfully');
+                } else {
+                    message.error("Failed to add product to cart");
                 }
+            })
+            .catch((error) => {
+                console.error('Error adding to cart:', error);
+                message.error("Error adding product to cart");
             });
     };
 
-    const decrement = () => {
-        setQuantity((prevState) => prevState === 1 ? 1 : prevState - 1);
-    };
+    // Decrement quantity
+    const decrement = () => setQuantity((prev) => Math.max(prev - 1, 1));
 
-    const increment = () => {
-        setQuantity((prevState) => prevState + 1);
-    };
+    // Increment quantity
+    const increment = () => setQuantity((prev) => prev + 1);
 
+    // Submit review function
     const handleSubmitReview = () => {
-        const reviewData = {
-            rating,
-            comment
-        };
+        const reviewData = { rating, comment };
 
         ProductService.addReview(id, reviewData)
             .then((response) => {
                 if (response.status === 201) {
                     message.success('Review added successfully');
+                    // Add the new review to the existing reviews
                     setReviews((prevReviews) => [...prevReviews, response.data]);
-                    setRating(0);
-                    setComment('');
+                    setRating(0); // Reset rating
+                    setComment(''); // Reset comment
+                } else {
+                    message.error("Failed to add review");
                 }
             })
             .catch((error) => {
                 console.error('Error submitting review:', error);
-                message.error('Failed to add review');
+                message.error("Error adding review");
             });
     };
 
@@ -106,8 +117,8 @@ const SingleProductPage = ({ product }) => {
                         <h3>Reviews</h3>
                         {reviews.length > 0 ? (
                             <div className="reviews-list">
-                                {reviews.map((review, index) => (
-                                    <div key={index} className="review-item">
+                                {reviews.map((review) => (
+                                    <div key={review._id} className="review-item">
                                         <div className="review-rating">
                                             {'★'.repeat(review.rating)}{'☆'.repeat(5 - review.rating)}
                                         </div>
@@ -152,8 +163,7 @@ const SingleProductPage = ({ product }) => {
                     </div>
                 </div>
             </div>
-            <Footer/>
-        
+            <Footer />
         </>
     );
 };

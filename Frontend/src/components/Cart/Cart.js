@@ -43,6 +43,10 @@ const Cart = ({ setshowCart }) => {
         console.log(response);
         if (response.status === 201) {
           message.success("Order placed successfully");
+          cartService.clearcart().then((response) => {
+            console.log(response);
+          });
+          window.location.href = response.data.paymentUrl;
         }
         cartService.clearcart().then((response) => {
           console.log(response);
