@@ -1,4 +1,4 @@
-const Order = require('../models/Order');
+const Order = require("../models/Order");
 
 // Get all orders
 const getAllOrders = (req, res, next) => {
@@ -7,21 +7,21 @@ const getAllOrders = (req, res, next) => {
       if (orders.length === 0) {
         return res.status(404).json({
           status: false,
-          message: 'No orders found',
+          message: "No orders found",
         });
       }
       res.status(200).json({
         status: true,
-        message: 'List of orders',
+        message: "List of orders",
         data: orders,
       });
     })
     .catch((error) => {
-      console.error('Error fetching orders:', error);
+      console.error("Error fetching orders:", error);
       res.status(500).json({
         status: false,
-        message: 'Fetching orders failed',
-        error: error.message || 'Unknown error',
+        message: "Fetching orders failed",
+        error: error.message || "Unknown error",
       });
     });
 };
@@ -33,24 +33,24 @@ const getOrdersbyUser = (req, res, next) => {
   if (!userId) {
     return res.status(400).json({
       status: false,
-      message: 'User ID is required',
+      message: "User ID is required",
     });
   }
 
   Order.find({ user: userId })
-    .populate({ path: 'user', populate: { path: 'address' } })
+    .populate({ path: "user", populate: { path: "address" } })
     // Populate the products array directly, without referencing 'product' in it
-    .populate('products') // This will populate the product details
+    .populate("products") // This will populate the product details
     .then((orders) => {
       if (orders.length === 0) {
         return res.status(404).json({
           status: false,
-          message: 'No orders found for this user',
+          message: "No orders found for this user",
         });
       }
 
       // Map the orders to match the frontend's expected format
-      const formattedOrders = orders.map(order => {
+      const formattedOrders = orders.map((order) => {
         // Calculate the total amount based on product prices and quantities
         let totalAmount = 0;
         const formattedProducts = order.products.map((product, index) => {
@@ -93,39 +93,58 @@ const getOrdersbyUser = (req, res, next) => {
 
       res.status(200).json({
         status: true,
-        message: 'List of orders for the user',
+        message: "List of orders for the user",
         data: formattedOrders,
       });
     })
     .catch((error) => {
-      console.error('Error fetching user orders:', error);
+      console.error("Error fetching user orders:", error);
       res.status(500).json({
         status: false,
-        message: 'Fetching orders failed',
-        error: error.message || 'Unknown error',
+        message: "Fetching orders failed",
+        error: error.message || "Unknown error",
       });
     });
 };
 
-
-
 // Create a new order
-const createOrder = (req, res, next) => {
+const createOrder = async (req, res, next) => {
   const { user, products, amount, quantity } = req.body;
 
   // Check if required fields are present
   if (!user || !products || !amount || !quantity) {
     return res.status(400).json({
       status: false,
-      message: 'Missing required fields (user, products, amount, quantity)',
+      message: "Missing required fields (user, products, amount, quantity)",
     });
   }
+
+  const payment = await fetch(
+    "https://dev.khalti.com/api/v2/epayment/initiate/",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: "Key d3d569ae149b47cea132ca13e40d6476",
+      },
+      body: JSON.stringify({
+        return_url: "http://localhost:3000/order",
+        website_url: "http://localhost:3000",
+        amount: amount * 100,
+        purchase_order_id: Math.floor(Math.random() * 1000000),
+        purchase_order_name: "Order from ArtSphere",
+      }),
+    }
+  );
+
+  const paymentData = await payment.json();
 
   const order = new Order({
     user,
     products,
     amount,
     quantity,
+    paymentId: paymentData.pidx,
   });
 
   order
@@ -133,16 +152,17 @@ const createOrder = (req, res, next) => {
     .then((createdOrder) => {
       res.status(201).json({
         status: true,
-        message: 'Order added successfully',
+        message: "Order added successfully",
         data: createdOrder,
+        paymentUrl: paymentData.payment_url,
       });
     })
     .catch((error) => {
-      console.error('Error creating order:', error);
+      console.error("Error creating order:", error);
       res.status(500).json({
         status: false,
-        message: 'Creating order failed',
-        error: error.message || 'Unknown error',
+        message: "Creating order failed",
+        error: error.message || "Unknown error",
       });
     });
 };
@@ -154,7 +174,7 @@ const deleteOrder = (req, res, next) => {
   if (!orderId) {
     return res.status(400).json({
       status: false,
-      message: 'Order ID is required',
+      message: "Order ID is required",
     });
   }
 
@@ -163,23 +183,79 @@ const deleteOrder = (req, res, next) => {
       if (!result) {
         return res.status(404).json({
           status: false,
-          message: 'Order not found',
+          message: "Order not found",
         });
       }
       res.status(200).json({
         status: true,
-        message: 'Order deleted successfully',
+        message: "Order deleted successfully",
         data: result,
       });
     })
     .catch((error) => {
-      console.error('Error deleting order:', error);
+      console.error("Error deleting order:", error);
       res.status(500).json({
         status: false,
-        message: 'Deleting order failed',
-        error: error.message || 'Unknown error',
+        message: "Deleting order failed",
+        error: error.message || "Unknown error",
       });
     });
 };
 
-module.exports = { getOrdersbyUser, createOrder, deleteOrder, getAllOrders };
+const verifyPayment = async (req, res, next) => {
+  const pidx = req.params.pidx;
+
+  if (!pidx) {
+    return res.status(400).json({
+      status: false,
+      message: "Payment ID is required",
+    });
+  }
+
+  await fetch(`https://dev.khalti.com/api/v2/epayment/lookup/	`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: "Key d3d569ae149b47cea132ca13e40d6476",
+    },
+    body: JSON.stringify({
+      pidx: pidx,
+    }),
+  })
+    .then(async (response) => await response.json())
+    .then(async (data) => {
+      if (data.status === "Completed") {
+        const order = await Order.findOneAndUpdate(
+          { paymentId: pidx },
+          { status: "paid" }
+        );
+        res.status(200).json({
+          status: true,
+          message: "Payment verified",
+          data,
+        });
+      } else {
+        res.status(400).json({
+          status: false,
+          message: "Payment not verified",
+          data,
+        });
+      }
+    })
+    .catch((error) => {
+      console.error("Error verifying payment:", error);
+      res.status(500).json({
+        status: false,
+        message: "Verifying payment failed",
+        error: error.message || "Unknown error",
+      });
+    });
+};
+
+module.exports = {
+  getOrdersbyUser,
+  createOrder,
+  deleteOrder,
+  getAllOrders,
+  verifyPayment,
+};

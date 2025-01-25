@@ -1,15 +1,19 @@
-const express = require('express')
-const OrderController = require('../controller/orders_controller')
-const auth = require('../middleware/auth')
+const express = require("express");
+const OrderController = require("../controller/orders_controller");
+const auth = require("../middleware/auth");
 
-const router = express.Router()
+const router = express.Router();
 
-router.route('/')
-    .get(auth.verifyUser,auth.verifyAdmin,OrderController.getAllOrders)
-    .post(auth.verifyUser,OrderController.createOrder)
+router
+  .route("/")
+  .get(auth.verifyUser, auth.verifyAdmin, OrderController.getAllOrders)
+  .post(auth.verifyUser, OrderController.createOrder);
 
-router.route('/:id')
-    .get(auth.verifyUser,OrderController.getOrdersbyUser)
-    .delete(auth.verifyUser,OrderController.deleteOrder)
+router
+  .route("/:id")
+  .get(auth.verifyUser, OrderController.getOrdersbyUser)
+  .delete(auth.verifyUser, OrderController.deleteOrder);
 
-module.exports = router
+router.route("/:pidx").post(auth.verifyUser, OrderController.verifyPayment);
+
+module.exports = router;
