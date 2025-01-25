@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../Navbar/Navbar";
 import Hero from "../Hero/Hero";
-import heroimg from "../../images/painting1.jpg";
+import heroimg from "../../images/HomePage.jpg";
 import Popular from "../PopularProducts/PopularProducts";
 import Footer from "../Footer/Footer";
 

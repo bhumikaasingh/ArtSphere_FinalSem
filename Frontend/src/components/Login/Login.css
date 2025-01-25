@@ -117,17 +117,17 @@
 
 .main-login .right-side input:hover,
 #submit-btn:hover {
-    box-shadow: 0 0 0.5rem 0.1rem #fe9955e1;
+    box-shadow: 0 0 0.5rem 0.1rem red;
 }
 
 #submit-btn {
     background: white;
-    color: #fe9955e1;
+    color: black;
     margin-top: 1rem;
 }
 
 #submit-btn:hover {
-    background-color: #fe9955e1;
+    background-color: red;
     color: white;
     transition: all 0.3s ease;
 }

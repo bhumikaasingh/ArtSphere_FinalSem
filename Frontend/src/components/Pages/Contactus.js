@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
-import heroimg from '../../images/contact.webp'
+import heroimg from '../../images/ContactPage.jpg'
 import ContactForm from '../Contact/ContactForm'
 import Footer from '../Footer/Footer'
 function Contactus() {

@@ -4,6 +4,7 @@
 
 .popular h1{
     font-size: 3rem;
+    display: flex;
 
 }
 .popular-products{

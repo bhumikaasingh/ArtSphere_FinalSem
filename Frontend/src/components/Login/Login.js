@@ -15,8 +15,8 @@ function Login() {
     const [isLogged, setIsLogged] = useState(false);
     const [token, setToken] = useState('');
     const [user, setUser] = useState(null);
-    const MAX_FAILED_ATTEMPTS = 5;      // Maximum allowed failed attempts
-    const LOCKOUT_DURATION = 30000;     // Lockout duration in milliseconds (30 seconds)
+    const MAX_FAILED_ATTEMPTS = 5;      
+    const LOCKOUT_DURATION = 30000;     
     const [isCodeSent, setIscodeSent] = useState(false);
     const [verificationcode, setVerificationCode] = useState('');
     const [role, setRole] = useState('');

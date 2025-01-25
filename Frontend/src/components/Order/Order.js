@@ -86,7 +86,7 @@ const OrderList = () => {
         {orders.length > 0 ? (
           <div className="overflow-x-auto bg-white shadow-md rounded-lg">
             <table className="w-full table-auto text-left">
-              <thead className="bg-gray-100 text-sm font-medium text-gray-600">
+              <thead className="bg-green text-sm font-medium text-gray-600">
                 <tr>
                   <th className="px-4 py-3 border-b">Order ID</th>
                   <th className="px-4 py-3 border-b">Status</th>
@@ -98,25 +98,27 @@ const OrderList = () => {
                 {orders.map((order) => (
                   <tr key={order._id} className="border-b hover:bg-gray-50">
                     <td className="px-4 py-3">{order._id}</td>
-                    <td className="px-4 py-3">{order.status}</td>
+                    <td
+  className={`px-4 py-3 font-semibold ${
+    order.status === "paid" ? "text-green-500" : "text-red-500"
+  }`}
+>
+  {order.status}
+</td>
+
                     <td className="px-4 py-3">
                       Rs. {parseFloat(order.amount).toFixed(2)}
                     </td>
                     <td className="px-4 py-3">
-                      {Array.isArray(order.products) &&
-                      order.products.length > 0 ? (
+                      {Array.isArray(order.products) && order.products.length > 0 ? (
                         <ul className="space-y-2">
                           {order.products.map((product, index) => (
-                            <li
-                              key={product._id || index}
-                              className="space-y-1"
-                            >
+                            <li key={product._id || index} className="space-y-1">
                               <div className="font-semibold text-gray-800">
                                 {product.name}
                               </div>
                               <div className="text-gray-600">
-                                Price: Rs.{" "}
-                                {parseFloat(product.price).toFixed(2)}
+                                Price: Rs. {parseFloat(product.price).toFixed(2)}
                               </div>
                               <div className="text-gray-600">
                                 Quantity: {order.quantity[index]}
@@ -124,26 +126,23 @@ const OrderList = () => {
                               <div className="text-gray-600">
                                 Subtotal: Rs.{" "}
                                 {(
-                                  parseFloat(product.price) *
-                                  order.quantity[index]
+                                  parseFloat(product.price) * order.quantity[index]
                                 ).toFixed(2)}
                               </div>
                               <div className="text-gray-500 text-sm">
-                                {product.description ||
-                                  "No description available."}
+                                {product.description || "No description available."}
                               </div>
                             </li>
                           ))}
                         </ul>
                       ) : (
-                        <span className="text-gray-500">
-                          No products available.
-                        </span>
+                        <span className="text-gray-500">No products available.</span>
                       )}
                     </td>
                   </tr>
                 ))}
               </tbody>
+
             </table>
           </div>
         ) : (

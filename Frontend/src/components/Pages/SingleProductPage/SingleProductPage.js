@@ -69,7 +69,7 @@ const SingleProductPage = ({ product }) => {
                     setRating(0); // Reset rating
                     setComment(''); // Reset comment
                 } else {
-                    message.error("Add review");
+                    message.success("Review Added Successfully");
                 }
             })
             .catch((error) => {

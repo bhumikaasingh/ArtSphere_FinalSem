@@ -2,6 +2,7 @@
     padding: 40px;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 .about-section {
@@ -30,8 +31,9 @@
 
 .about-text h1 {
     font-size: 28px;
+    display: flex;
     font-weight: bold;
-    color: #2a3b4d;
+    color: black;
     margin-bottom: 16px;
     font-family: 'Georgia', serif;
 }
@@ -39,7 +41,7 @@
 .about-text p {
     font-size: 18px;
     line-height: 1.6;
-    color: #495d6f;
+    color: black;
     font-family: 'Arial', sans-serif;
 }
 

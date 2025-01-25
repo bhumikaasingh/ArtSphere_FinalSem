@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from '../Navbar/Navbar'
 import Hero from '../Hero/Hero'
-import heroimg from '../../images/about1.jpg'
+import heroimg from '../../images/AboutPage1.jpg'
 import Footer from '../Footer/Footer'
 import About from '../About/About'
 function Aboutus(){

@@ -15,6 +15,7 @@
 
 .footer .top h1 {
     font-size: 32px;
+    display: flex;
     font-family: 'Georgia', serif;
     color: #ffffff;
 }

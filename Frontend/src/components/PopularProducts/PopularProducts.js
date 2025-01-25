@@ -12,7 +12,7 @@ const Popular=({products})=>{
     return(
         <div className="popular">
             <h1>Popular Categories</h1>
-      <p>Discover the brilliance of talented artists through our curated art collections. Each piece is a testament to creativity and skill, offering a platform for artists to share their stories with the world.</p>
+        <p>Discover the brilliance of talented artists through our curated art collections. Each piece is a testament to creativity and skill, offering a platform for artists to share their stories with the world.</p>
             <CategoriesData
             className="popular-products"
             heading="Paintings"

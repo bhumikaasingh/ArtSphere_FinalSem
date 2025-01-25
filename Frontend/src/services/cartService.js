@@ -8,7 +8,8 @@ const baseUrl = "http://localhost:5500/cart";
 //     console.log("User ID not found in local storage");
 // }
 
-let userId = null;
+const user = JSON.parse(window.localStorage.getItem("user"));
+  const userId = user?._id;
 
 const getUserById = () => {
   const config = {
@@ -19,19 +20,19 @@ const getUserById = () => {
   return axios.get(`http://localhost:5500/users/profile`, config);
 };
 
-const getUserId = async () => {
-  try {
-    const res = await getUserById();
-    const userId = res.data.data._id;
-    return userId;
-  } catch (error) {
-    console.error("Error fetching user ID:", error);
-  }
-};
+// const getUserId = async () => {
+//   try {
+//     const res = await getUserById();
+//     const userId = res.data.data._id;
+//     return userId;
+//   } catch (error) {
+//     console.error("Error fetching user ID:", error);
+//   }
+// };
 
-(async () => {
-  userId = await getUserId();
-})();
+// (async () => {
+//   userId = await getUserId();
+// })();
 
 const addtocart = ({ product, quantity, amount }) => {
   const config = {

@@ -41,25 +41,25 @@ img {
 .hero-text h1 {
     font-size: 3rem;
     font-weight: 800;
-    background: #fff;
+    background: black;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero-text p {
     font-size: 1.3rem;
-    color: #fff;
+    color: black;
     padding: 0.5rem 0 2rem 0;
 }
 
 .hero-text .show {
     text-decoration: none;
-    background-color: white;
+    background-color: red;
     padding: 1rem 2rem;
     border-radius: 6px;
     font-size: 1.2rem;
     font-weight: bold;
-    color: #8b0606e1;
+    color: white;
     z-index: 2; /* Make sure the button is on top */
 }
 

@@ -110,7 +110,7 @@
 }
 
 .nav-links {
-  color: rgb(148, 41, 41);
+  color: rgb(7, 5, 5);
   text-decoration: none;
   padding: 0.7rem 1rem;
   cursor: pointer;
@@ -125,7 +125,7 @@
 }
 
 .nav-links:hover {
-  background-color: #883737ee;
+  background-color: red;
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -138,11 +138,11 @@ button {
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  color: rgb(0, 102, 255);
+  color: rgb(7, 9, 11);
 }
 
 button:hover {
-  background-color: #f9660bee;
+  background-color: red;
   color: #fff;
   transition: all 0.3s ease;
   box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);

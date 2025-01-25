@@ -6,6 +6,7 @@
   justify-content: center;
   height: 100%;
   width: 100%;
+  
   overflow: hidden;
   font-family: 'Arial', sans-serif;
 }
@@ -27,11 +28,13 @@
 
 .input-group h5 {
   margin-bottom: 5px;
+  
 }
 
 .main-register .leftside-register {
   flex: 0.33;
   background: #d3ab92ee;
+  
 }
 
 .main-register .leftside-register .register-header {
@@ -72,7 +75,7 @@
 .main-register .rightside-register .top-right {
   text-decoration: none;
   cursor: pointer;
-  color: #d3ab92ee;
+  color: black;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -80,14 +83,14 @@
 .main-register .rightside-register #link-signin {
   text-decoration: none;
   cursor: pointer;
-  color: #d3ab92ee;
+  color: black;
   font-size: 1rem;
   font-weight: bold;
 }
 
 .main-register .rightside-register #link-signin:hover {
   text-decoration: underline;
-  color: #000;
+  color: red;
 }
 
 .main-register .rightside-register .body-right {
@@ -151,11 +154,11 @@
 
 .main-register .rightside-register .body-right .container-register .input-group input:focus {
   outline: none;
-  border-color: #000000ee;
+  border-color: red;
 }
 
 :root {
-  --primary-color: #fe9955e1;
+  --primary-color: red;
   --secondary-color: white;
 }
 
