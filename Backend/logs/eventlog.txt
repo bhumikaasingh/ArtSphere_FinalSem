@@ -3392,3 +3392,1211 @@ a228bf09-4e4a-4494-9296-2067d9423abe	20250125	08:23:18	 GET /order/678e510dcfbd4
 683b2df9-39a4-45e8-80e6-ed4816cfab6c	20250125	08:23:33	 GET /users/profile	 undefined
 306f270c-5685-4cee-9914-f2959448fe51	20250125	08:23:33	 GET /order/678e510dcfbd40d91454c24f	 undefined
 2af5725b-0d16-492b-8173-77e01c4dd815	20250125	08:23:33	 GET /order/678e510dcfbd40d91454c24f	 undefined
+1bc0d686-91eb-47ec-844b-371e2d4478a6	20250125	08:32:08	 GET /users/profile	 undefined
+1627b292-11b6-4973-87f0-f8a9739e9a35	20250125	08:32:08	 GET /users/profile/	 undefined
+2bd0e0c5-4d83-4ec2-bbbf-0a39c5c028e6	20250125	08:32:08	 GET /users/profile/	 undefined
+30015b97-1ac8-421b-85de-31260a19420b	20250125	08:32:18	 GET /users/profile	 undefined
+54631307-5971-4528-8bbc-0fca90444f22	20250125	08:32:18	 GET /category	 undefined
+af1ba02c-1775-40b6-8f08-9ca60bd88c1c	20250125	08:32:18	 GET /products	 undefined
+a38b03aa-8ecb-4c4e-86ce-e41f1f243293	20250125	08:32:18	 GET /order	 undefined
+39d20134-d611-4f8d-88ee-06ec21202b13	20250125	08:32:18	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+aa846b26-f63a-458e-a102-f8532c14a07e	20250125	08:32:18	 GET /users/	 undefined
+d3106f5a-2dae-4aec-bb67-cd642a0a63f7	20250125	08:32:18	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+4f1dbcb7-d929-4664-a530-55577bba9f4b	20250125	08:32:18	 GET /order	 undefined
+9441fb32-c573-4088-981e-c3eff3f5dfdc	20250125	08:32:18	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+f24631b5-0ae5-4664-897e-c9c9a161c1ef	20250125	08:32:18	 GET /users/	 undefined
+a105ef8f-e206-4b06-857d-8ae9b292b70a	20250125	08:32:18	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+7f7449cf-4b9e-4cdb-af4c-03b7ff531222	20250125	08:32:18	 GET /category	 undefined
+d603b858-5ac0-47b8-b43e-b7ad756247ba	20250125	08:32:18	 GET /products	 undefined
+cb1a85dd-0a5c-4c8e-af9a-32ff7c3d9d80	20250125	08:35:50	 GET /users/profile	 undefined
+54450b77-7c57-48a4-8016-d775f79304f4	20250125	08:35:50	 GET /users/profile/	 undefined
+c74d3672-bbf7-486c-b8b7-a6090a85d54f	20250125	08:35:50	 GET /users/profile/	 undefined
+9a1fe55f-127b-4aa2-9ad9-a335be72e353	20250125	08:36:15	 GET /users/profile	 undefined
+fb93b2be-ec4f-4993-991b-2b9ffef662d5	20250125	08:36:15	 GET /products	 undefined
+34400106-118f-4a71-b0b0-5349be36c430	20250125	08:36:15	 GET /order	 undefined
+fd6805e1-c571-4204-93e7-702c836c5b65	20250125	08:36:15	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+476700fe-87e3-4ba4-b52e-aac2f8372d79	20250125	08:36:15	 GET /order	 undefined
+d9e48feb-a525-48fc-bc0a-d3d96fe09bc2	20250125	08:36:15	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+6da2a0fa-1f04-45af-826c-4e2878539468	20250125	08:36:15	 GET /category	 undefined
+40b7d298-abf5-4087-a4d0-ec03c85d8f2f	20250125	08:36:15	 GET /users/	 undefined
+773793c2-a6f4-4b24-92f4-91b4b4f29081	20250125	08:36:15	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+adc9d446-bf66-41e3-bf59-ea89be38cf49	20250125	08:36:15	 GET /products	 undefined
+02ca251c-13bd-434f-808e-8505e0630749	20250125	08:36:15	 GET /users/	 undefined
+f6ef13db-3eef-4ebe-8daf-04810cebe192	20250125	08:36:15	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+6f60e1f2-1213-4a85-ab9f-eaddae5fd4f8	20250125	08:36:15	 GET /category	 undefined
+f52b7de6-553c-485d-8c98-e9136dd782ec	20250125	08:36:25	 GET /category	 undefined
+41bd321f-8685-48e1-a4cd-072e203503aa	20250125	08:36:25	 GET /category	 undefined
+8a55a4db-d35d-4edf-b6ab-5c68c6ad38c4	20250125	08:36:27	 GET /products	 undefined
+4c2ea54d-1014-4e07-b49c-0641d4da26fc	20250125	08:36:27	 GET /order	 undefined
+5da7b950-9869-45f2-91ca-d92fb6bb58e7	20250125	08:36:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+33c05dce-bc9a-4fc6-9a1a-e6b07646f4f6	20250125	08:36:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+b9b643e1-dc4b-43d0-8e9f-cf27df87c3e5	20250125	08:36:27	 GET /users/	 undefined
+2ec8a608-5034-424e-bcb2-e1ddc7e32ee8	20250125	08:36:27	 GET /order	 undefined
+ba54d95d-f8c0-4665-b253-0911c7f0295f	20250125	08:36:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+dd2c5cd1-20f2-420a-802e-1f4f074c45ad	20250125	08:36:27	 GET /users/	 undefined
+150036de-5883-457f-820e-57084a3366e1	20250125	08:36:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+4e413628-6785-43e4-8d31-970ee7cb8916	20250125	08:36:27	 GET /products	 undefined
+1e6998a4-2f6c-4bab-980b-1053127226c9	20250125	08:36:32	 GET /users/	 undefined
+1a5b1599-d8ea-4c3b-8640-21efa9e200b7	20250125	08:36:32	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+33087491-f4c1-4811-9c01-87420344d858	20250125	08:36:32	 GET /users/	 undefined
+283852f7-d800-422c-a31f-7815f8df3062	20250125	08:36:32	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+71534a7c-0940-4d72-b53d-9b99b0246d41	20250125	08:36:37	 GET /products	 undefined
+ed2a0b57-c2be-4d36-9d13-2b4087f492aa	20250125	08:36:37	 GET /products	 undefined
+9c41a83a-38bd-420d-a55d-477ccca4d778	20250125	08:36:37	 GET /images/product_image/image-1737643919165.jpg	 undefined
+c00fc1df-fadd-4851-8d28-7c9b1050806a	20250125	08:37:04	 PUT /products/6792578fd7f78f7b1af8ed34	 undefined
+18984337-bb34-46bd-8f22-fd6c9e6f0b6f	20250125	08:37:04	 PUT /products/6792578fd7f78f7b1af8ed34 Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+29f3d041-8b9f-4d47-b72e-5060d16d59b1	20250125	08:40:21	 GET /users/profile	 undefined
+76c48826-b32d-4c2f-b4f3-55f641a511f6	20250125	08:40:21	 GET /users/profile/	 undefined
+fd056d58-fd80-4a98-9c77-e4ebe6a42215	20250125	08:40:21	 GET /users/profile/	 undefined
+346f8162-4282-4d7b-b345-69de8c81c66f	20250125	08:40:27	 GET /users/profile	 undefined
+74fe36ca-10c9-4f9f-874d-56fe6905282a	20250125	08:40:27	 GET /products	 undefined
+3eb24354-ee71-4584-9589-1d7eb8ccb365	20250125	08:40:27	 GET /users/	 undefined
+e925ae17-b58a-4949-a5cd-6d8d0866285b	20250125	08:40:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+8eb15454-f175-40dd-88f9-8398f171439f	20250125	08:40:27	 GET /category	 undefined
+0badf590-fac3-4471-a76d-ae7da0778dbf	20250125	08:40:27	 GET /order	 undefined
+d3000e8c-82b2-4bd3-9391-5abb3555352c	20250125	08:40:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+2f9be7cf-48ad-4657-a185-9ea6525a485c	20250125	08:40:27	 GET /users/	 undefined
+cffdb8c4-01f4-495c-9196-4f177683a138	20250125	08:40:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+a7a27134-674b-43dc-8c91-4b2e7e4bfe1c	20250125	08:40:27	 GET /order	 undefined
+f06d8d47-656a-41c2-ab16-d04ca87589c4	20250125	08:40:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+a57042ed-121a-4897-82ad-3dd9dba239c9	20250125	08:40:27	 GET /products	 undefined
+4b4376e1-e69d-4568-8acc-413b83375b6f	20250125	08:40:27	 GET /category	 undefined
+a74b37bb-da05-4601-a97d-1dad8d2bff35	20250125	08:40:32	 GET /users/	 undefined
+81012936-a926-4fd8-a7b2-47928e8e9b16	20250125	08:40:32	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+5984649b-022e-4240-90a0-7212964cf620	20250125	08:40:32	 GET /users/	 undefined
+adb9c6b4-c3cd-4397-889d-8e32eaa5ac78	20250125	08:40:32	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+534de7b7-1cef-43d0-9b4f-18e3feb7aafe	20250125	08:41:11	 GET /products	 undefined
+0d0b9022-7e8b-4a45-b2d5-328f90a0693a	20250125	08:41:11	 GET /products	 undefined
+f8ad903c-9fa6-4f14-a5e1-e51636e4e29c	20250125	08:41:11	 GET /images/product_image/image-1737643919165.jpg	 undefined
+35abac72-faa4-464f-b09a-a7e1a2f30b53	20250125	08:41:26	 PUT /products/6792578fd7f78f7b1af8ed34	 undefined
+fc57d615-af8e-4a25-a840-df8ea2d32f8e	20250125	08:41:26	 PUT /products/6792578fd7f78f7b1af8ed34 Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+7dc39c7b-01aa-44f6-81a7-d650e00bd273	20250125	08:46:40	 GET /users/profile	 undefined
+99620473-fb0e-4803-b819-fff312065161	20250125	08:46:40	 GET /users/profile/	 undefined
+dc38ee2e-9ce4-4579-bf81-556d15899ec5	20250125	08:46:40	 GET /users/profile/	 undefined
+1d31b2a0-d958-46e3-99d7-3c471c71f732	20250125	08:46:51	 GET /products	 undefined
+121a5026-dfb9-4b44-9d92-745fea3f93c8	20250125	08:46:51	 GET /users/profile/	 undefined
+09ecc7ad-bd93-47d6-af96-ae2c61874623	20250125	08:46:51	 GET /users/profile/	 undefined
+9212766c-cd1c-4752-84e4-79bb080039ba	20250125	08:46:51	 GET /products	 undefined
+d718a445-bcea-4d86-998a-a21f56b24a0b	20250125	08:46:51	 GET /products	 undefined
+1b445eaa-5ebe-4726-a00e-ac8059dc9cb9	20250125	08:46:51	 GET /products	 undefined
+f6a74950-ff48-48e6-94f8-1c1accb43a60	20250125	08:46:51	 GET /images/product_image/image-1737643919165.jpg	 undefined
+724aeee3-7fea-449b-b3e9-03a4c95d7ca2	20250125	08:46:55	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+02fd3250-904e-4d20-a403-2011995f47a3	20250125	08:46:55	 GET /users/profile/	 undefined
+525442a4-3b9b-4204-921b-84bf5197a6fd	20250125	08:46:55	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+23a8522f-dbc8-4524-95d6-0c0419683905	20250125	08:46:55	 GET /users/profile/	 undefined
+39a74920-a25d-4808-8023-722c44fd4109	20250125	08:47:13	 POST /cart	 undefined
+fb25d766-2bdd-485c-b28f-02ff1880b6fc	20250125	08:47:15	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+0f97d785-45ac-451f-8492-36577940ff4a	20250125	08:47:16	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+84ce0aef-5e79-48b7-9169-196b854dd851	20250125	08:47:18	 DELETE /cart/6792578fd7f78f7b1af8ed34	 undefined
+79cdd136-52d5-47e7-9352-d7a749e54609	20250125	08:47:23	 POST /cart	 undefined
+df0b972f-a932-4815-b593-1ca4e7428421	20250125	08:47:26	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+70ff6ef1-6028-48fa-8d44-89e4a9ec798f	20250125	08:47:26	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+ed8f6f31-6ec8-4eca-b5aa-b8b8d5ff7e2f	20250125	08:47:30	 POST /order/	 undefined
+356dad79-06d3-49cf-b82e-5a92fb20cc33	20250125	08:47:32	 DELETE /cart/user/678e510dcfbd40d91454c24f	 undefined
+0d0900c2-37e6-4830-8f24-771dc89af8d6	20250125	08:47:32	 DELETE /cart/user/678e510dcfbd40d91454c24f	 undefined
+7a1f5d34-7c1f-4f6b-85d9-f6ce646d32d3	20250125	08:48:28	 GET /users/profile	 undefined
+55167209-ebaf-4da4-9af4-38f05be36af3	20250125	08:48:28	 GET /products	 undefined
+3c63a557-0662-439e-a70b-43f27e943587	20250125	08:48:28	 GET /users/profile/	 undefined
+6591a695-98a4-4d89-872e-ecd307c81946	20250125	08:48:28	 GET /products	 undefined
+29250d60-5f0b-4914-8115-74189ef76a01	20250125	08:48:28	 GET /users/profile/	 undefined
+d195acd4-bede-4122-8f2a-e49803d7337f	20250125	08:48:28	 GET /products	 undefined
+c7432b86-f6c3-4073-aed9-af1776a1415f	20250125	08:48:28	 GET /images/product_image/image-1737643919165.jpg	 undefined
+02dff6a9-0e30-4491-9456-e4ad715edb95	20250125	08:48:28	 GET /products	 undefined
+72db2eb7-dd09-4a2d-83ad-6e0a6e3c9fd9	20250125	08:48:33	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+02f3cd3c-7c39-4772-b9f3-f61766bc09e4	20250125	08:48:33	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+99527bdc-0806-4392-93b4-73a3693f0e39	20250125	08:48:37	 GET /users/profile/	 undefined
+7ffbdbe6-382a-4221-b977-a0412dc98da2	20250125	08:48:37	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+80903a9b-7ae5-4eb6-9464-e1e2d160e05b	20250125	08:48:37	 GET /users/profile/	 undefined
+201929d9-18b0-4b3e-b105-c0fb877a2a76	20250125	08:48:37	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+0a7f45ce-e4bc-49e6-ab23-f6585572a736	20250125	08:48:46	 POST /cart	 undefined
+555db518-1973-4414-94d0-12e1222e62ed	20250125	08:48:54	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+ac178f39-f2e1-48e5-a3a6-5d4e9009f0a0	20250125	08:48:54	 GET /cart/user/678e510dcfbd40d91454c24f	 undefined
+7935950b-8989-4f69-bd39-72bdd3a0d554	20250125	08:49:00	 POST /order/	 undefined
+f0b3b471-daa0-44b7-a7e1-6a89e9b44bad	20250125	08:49:00	 DELETE /cart/user/678e510dcfbd40d91454c24f	 undefined
+a754c0e7-9840-43aa-b4d9-1f450d6528f7	20250125	08:49:00	 DELETE /cart/user/678e510dcfbd40d91454c24f	 undefined
+721882cb-b30a-4302-b9ef-cbda20720298	20250125	08:50:11	 GET /users/profile	 undefined
+90da68bc-7056-4d6b-ab7e-9027cd134095	20250125	08:50:11	 GET /users/profile/	 undefined
+0bc7c3c2-ec1a-4116-bcef-84b4dc61309b	20250125	08:50:12	 GET /users/profile/	 undefined
+d02c767d-caeb-4738-b017-7f880ad57e5b	20250125	08:50:19	 GET /users/profile/	 undefined
+ea9ad17d-f9f9-4292-8009-52042b3d5115	20250125	08:50:19	 GET /users/profile/	 undefined
+b1e46a52-b911-4639-8b11-ef9f6d3cde5f	20250125	08:50:23	 GET /users/profile	 undefined
+c5733101-3c33-42f5-94d5-8d943362f456	20250125	08:50:23	 GET /users/profile/	 undefined
+f2f1080e-86f2-4745-a7bb-1504d9756058	20250125	08:50:23	 GET /users/profile/	 undefined
+5ba4efcb-1802-4a2a-b794-0a60348941e1	20250125	08:50:52	 GET /users/profile/	 undefined
+bf90e7e4-a03f-4771-855d-4d7be0ab8e6e	20250125	08:50:52	 GET /users/profile/	 undefined
+de7da089-c4a5-4a5c-893a-d31b876bead6	20250125	08:50:52	 GET /users/profile/	 undefined
+e57b4652-1109-4959-929e-493f56692555	20250125	08:50:52	 GET /users/profile/	 undefined
+41a2b06d-b16f-44f5-a2eb-5e851bceb9e8	20250125	08:51:08	 PUT /users/678e510dcfbd40d91454c24f	 undefined
+b600d2a0-1c55-4d04-985e-cd78d24e5244	20250125	08:51:34	 GET /users/profile	 undefined
+c545add5-942a-438c-9c94-b0a0c6a6868d	20250125	08:51:34	 GET /products	 undefined
+c5a704dc-9061-4297-b094-21ad88ebdabd	20250125	08:51:34	 GET /users/	 undefined
+100c73ea-a1d3-4d7c-82f7-f75468bbbe28	20250125	08:51:34	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+489753e8-0ded-4631-9672-f6dbb89502e4	20250125	08:51:34	 GET /order	 undefined
+9f2dcaa9-a786-480d-a030-44cffd1eaaa9	20250125	08:51:34	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+a92a73f9-6c60-40cc-802e-1ca7dab9a359	20250125	08:51:34	 GET /category	 undefined
+298c52b0-020f-4089-be22-7502369d2e24	20250125	08:51:34	 GET /order	 undefined
+495d7b71-f256-4068-822d-a9f148530138	20250125	08:51:34	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+10f2aa72-7472-497c-88f7-c08948be9123	20250125	08:51:34	 GET /users/	 undefined
+cc67cb9a-7e6b-4b1e-b344-717bdcb2696d	20250125	08:51:34	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+d6556384-f53e-436f-8e7d-f718fd361d5d	20250125	08:51:34	 GET /products	 undefined
+50c9ecd6-6c2f-4cb5-9a43-a216dee2f9a4	20250125	08:51:34	 GET /category	 undefined
+54a451ae-ef3e-4dd6-b9fb-3ea89709e3f6	20250125	08:57:52	 POST /products	 undefined
+7c0d8255-2393-4d79-bf4d-46b671476804	20250125	08:57:52	 POST /products Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+74181b02-13de-4dd7-bc4f-2a3c8b9a4ff9	20250125	08:58:38	 GET /users/profile	 undefined
+fbc345e6-1ceb-4269-8763-53b0c81c02fb	20250125	08:58:38	 GET /users/profile/	 undefined
+6447f86d-a2ac-46e8-b085-a6df788f8944	20250125	08:58:39	 GET /users/profile/	 undefined
+aecb2147-c7ef-4786-a17e-f05a01cfedd8	20250125	08:58:41	 GET /users/profile/	 undefined
+7c8ddf7c-f26a-4812-bf5b-1dba0427760a	20250125	08:58:41	 GET /products	 undefined
+a52b1829-a289-402e-9939-d62ea53c0f23	20250125	08:58:41	 GET /users/profile/	 undefined
+4334c468-f07f-4eee-8c4d-fd4215dcb5f7	20250125	08:58:41	 GET /products	 undefined
+cfd14d09-8dc3-4957-844d-c8918bb15844	20250125	08:58:41	 GET /products	 undefined
+1b328fed-ed3d-4820-b31a-6ac22030dcf9	20250125	08:58:42	 GET /images/product_image/image-1737643919165.jpg	 undefined
+e5b1c715-5d89-4d72-a4eb-43be873e5def	20250125	08:58:42	 GET /products	 undefined
+3315ec93-ab9e-4bfe-8bae-1d06839640d9	20250125	08:58:48	 GET /users/profile/	 undefined
+42373a07-30c6-4a13-973c-4b5b7e6919ff	20250125	08:58:48	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+99982e1b-59c5-4a61-bd34-91486e12dfe0	20250125	08:58:49	 GET /products/6792578fd7f78f7b1af8ed34/reviews	 undefined
+58c12537-b1c6-4d27-b919-0e6b46a32179	20250125	08:58:49	 GET /users/profile/	 undefined
+c9cf11fc-cf6d-4201-83af-e7270485ac2b	20250125	09:00:24	 GET /users/profile	 undefined
+a4a720a5-91ca-4a43-8e16-bf1b87036f72	20250125	09:00:24	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+cd885f08-dcd6-4ad2-842c-04b73b319688	20250125	09:00:26	 GET /users/profile	 undefined
+74a7ccf2-da03-46ee-a182-47e083db2a7e	20250125	09:00:26	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+f527eb85-d382-40dc-9296-035cdbd8af00	20250125	09:02:28	 POST /users/login	 undefined
+0fc1b474-755b-471e-a7ff-fa0a9d362369	20250125	09:02:35	 GET /users/profile	 undefined
+50c7d7a5-b3d7-46bf-bdab-2d42ba904397	20250125	09:02:35	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+9fb37949-35ea-4571-b6b4-511820e6ddc7	20250125	09:02:37	 GET /users/profile	 undefined
+f6761bcb-244c-40f2-8862-9d8fecbcad4c	20250125	09:02:37	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+e0289054-37d2-459a-b2b6-4c4048d2af51	20250125	09:04:27	 POST /users/	 undefined
+c80d4ff2-6b0f-4173-b62a-4fd092695011	20250125	09:04:27	 POST /users/ Error: Invalid file type
+    at DiskStorage.destination [as getDestination] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\uploaduser.js:15:26)
+    at DiskStorage._handleFile (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:394:37)	 undefined
+4cb975db-5997-43ec-8763-e7e04c4a303e	20250125	09:04:31	 POST /users/	 undefined
+ec43a389-a90f-4d75-9c4a-6626a62747b7	20250125	09:04:31	 POST /users/ Error: Invalid file type
+    at DiskStorage.destination [as getDestination] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\uploaduser.js:15:26)
+    at DiskStorage._handleFile (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:394:37)	 undefined
+bb0a2d6e-8048-4b49-8fb2-857df549c656	20250125	09:04:45	 GET /users/profile	 undefined
+f219c006-5e48-47cc-a383-2be572393a27	20250125	09:04:45	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+7f3ef54c-648d-4ae8-b40f-d4d7206bf1aa	20250125	09:05:15	 POST /users/	 undefined
+06f973a4-aaf4-4b71-a34a-c0ad8b3e4743	20250125	09:05:16	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+b0fbf098-190b-4590-b3e2-ac889df9da46	20250125	09:09:37	 GET /users/profile	 undefined
+c6b05a3b-53ad-4878-9348-7914df4cfac3	20250125	09:09:37	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+c522781e-c2cb-4baa-b5e6-4279cb399813	20250125	09:10:20	 POST /users/	 undefined
+5ad5b3a1-456f-4ddf-93a0-bf9adf6188b0	20250125	09:10:20	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+a40fa6e1-783b-4116-9c7f-fb7a17be197b	20250125	09:10:57	 POST /users/	 undefined
+d558251e-1915-406e-85fa-6fea3401b021	20250125	09:10:57	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+2de6bb9c-48a3-4e69-8bb9-b9d0dbf94b84	20250125	09:10:59	 POST /users/	 undefined
+0e027df3-d522-4a4e-80d3-3ca330bd3bd6	20250125	09:10:59	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+b0018363-b084-4ecb-9654-803d4b10bffa	20250125	09:11:00	 POST /users/	 undefined
+06aecd2b-adb5-42c3-b84d-119469507be8	20250125	09:11:00	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+9bf6010c-e547-47af-a4ed-a98162ce141d	20250125	09:11:00	 POST /users/	 undefined
+56788507-f4ae-4888-9334-0cf3a8fa29c9	20250125	09:11:00	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+f2c2903c-de88-4dae-ab7b-2e9a2e92cc80	20250125	09:11:00	 POST /users/	 undefined
+b80c48a5-3929-40b6-a7d7-c9437c1c87fe	20250125	09:11:00	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+de23746f-2726-494f-a467-f31ff185a578	20250125	09:21:47	 POST /users/	 undefined
+40468e6b-7c4b-45f1-b5b1-cf531b6657b9	20250125	09:21:47	 POST /users/ Error: User bhumika already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+d89ab279-1ca0-4fb0-8e35-dc31b7cd160a	20250125	09:22:24	 POST /users/login	 undefined
+c6db993b-3625-4be3-a77e-73b2b39040ce	20250125	09:23:59	 GET /users/profile	 undefined
+7bf3401f-7f57-49cd-bf6e-986a427a89ea	20250125	09:33:18	 POST /users/	 undefined
+d90d1dcb-e8c4-4f24-b54c-3b4f17cc06b6	20250125	09:37:22	 GET /users/profile	 undefined
+bcfab756-fa62-4f14-a0c8-428d0ef6c88c	20250125	09:38:00	 GET /users/profile	 undefined
+e7c13a21-d663-4336-9ae9-2fab7777ae43	20250125	09:41:13	 GET /users/profile	 undefined
+6e3f0b4a-17c3-47a5-8ec9-6800a14432e4	20250125	09:45:03	 GET /users/profile	 undefined
+954b88d8-0331-422a-afcf-9efaec89629d	20250125	09:45:07	 GET /users/profile	 undefined
+27e248a5-829f-42d3-91be-7da0f40dbc6c	20250125	10:24:03	 GET /users/profile	 undefined
+c011e554-1437-43ac-b783-77fc3476f4a1	20250125	10:24:03	 GET /users/profile/	 undefined
+38e13e19-4b6c-4ea6-8090-21cfd1bf75b5	20250125	10:24:03	 GET /users/profile/	 undefined
+d30ed8bc-7c81-45f2-b83a-6209e6fcdcb7	20250125	10:24:05	 GET /users/profile	 undefined
+a0749613-9914-429e-bb60-721594d5457a	20250125	10:24:05	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+8a42c027-3982-4e3d-8dc7-e8a8fc2fa7f4	20250125	10:24:07	 GET /users/profile	 undefined
+31991eb1-8bcb-4f20-9441-7a7170452c1b	20250125	10:24:07	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+09ff822c-7d94-4ba8-8904-07239569f24c	20250125	10:31:43	 GET /users/profile	 undefined
+c0669ce0-1cd1-4450-a312-3a2d18e037b0	20250125	10:31:43	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+d9699d58-39b9-46b2-8881-26177d80f928	20250125	10:32:29	 GET /users/profile	 undefined
+e8d66209-436b-47fb-b964-9237cc3fc4a9	20250125	10:32:29	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+99e77ab5-6469-49e3-ae7d-5724a8f7e68e	20250125	10:35:34	 POST /users/	 undefined
+e938b880-029d-407f-863b-4dd31188b92b	20250125	10:35:34	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+5789d9e4-36b6-4dd0-80cd-b8a5f1ac67cb	20250125	10:36:21	 POST /users/	 undefined
+56713816-45c7-4be1-9120-bc3643ff53c5	20250125	10:36:21	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+d171282f-423d-491d-a8f7-80a7f95abcdb	20250125	10:36:22	 POST /users/	 undefined
+ff89b10f-13fc-4beb-b50c-e232145c334f	20250125	10:36:22	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+8abef140-3d56-49c6-aaf7-2049b7ea5c65	20250125	10:36:33	 POST /users/	 undefined
+29b67ef8-8b1c-41d6-991c-e4e432863294	20250125	10:36:33	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+b5473835-9578-4cf0-81f3-20c120bd0c8f	20250125	10:36:34	 POST /users/	 undefined
+44b7df0e-dd9e-4b3d-a775-e34a34f3ea72	20250125	10:36:34	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+e242ef35-0eaf-45e2-9648-09eca22ae421	20250125	10:36:34	 POST /users/	 undefined
+c4036305-2d0a-43d9-a5ad-84060fb0d0e4	20250125	10:36:34	 POST /users/ Error: User bhumi already exists.
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\controller\users_controller.js:24:19
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)	 undefined
+5329f89a-946f-4461-a1fa-e36f90801cdb	20250125	10:36:48	 GET /users/profile	 undefined
+81c3abf6-2534-4bcc-91bb-985e2797ac09	20250125	10:36:48	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+411cd0b1-4d2b-4ea2-831a-4ed1114d0691	20250125	10:38:16	 POST /users/	 undefined
+50042ea7-ee7f-40c5-bb3a-2756d83fc834	20250125	10:38:45	 POST /users/login	 undefined
+babd94b0-dce6-4cec-acc2-77258c992c2d	20250125	10:39:06	 GET /users/profile/	 undefined
+8714589b-0451-43bc-b5c8-a76854f7f089	20250125	10:39:06	 GET /users/profile/	 undefined
+ab1235ba-4072-48ed-b14a-c219304f6613	20250125	10:39:17	 GET /products	 undefined
+3612cc4b-2d19-4805-8cd3-c9b31ef15803	20250125	10:39:17	 GET /users/profile/	 undefined
+7a5da2b4-e70b-4d68-ab5b-690391d55134	20250125	10:39:18	 GET /users/profile/	 undefined
+3df08254-2fa8-4276-9d23-262d0ac28bf0	20250125	10:39:18	 GET /products	 undefined
+3e470dbd-b220-4a75-ba8c-73e9507c5984	20250125	10:39:18	 GET /products	 undefined
+e2503615-b944-4433-96ad-e9236b4e56f7	20250125	10:39:18	 GET /images/product_image/image-1737643919165.jpg	 undefined
+a78a8606-5b66-44ee-a212-07dc02b10435	20250125	10:39:18	 GET /products	 undefined
+9782939e-da04-40df-a4c6-d2c39b9c6251	20250125	10:39:27	 GET /users/profile	 undefined
+5de024cb-70aa-4f74-ae68-b38443f1cc88	20250125	10:39:27	 GET /users/	 undefined
+4692ac76-28b4-46e2-b3f6-eebbd2a26b25	20250125	10:39:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+7828d92f-e8b0-43bd-817c-e147719f814d	20250125	10:39:27	 GET /products	 undefined
+dab965d2-50e9-404c-bb11-23d638e044df	20250125	10:39:27	 GET /order	 undefined
+85bbb437-3378-4461-a110-458dc500761d	20250125	10:39:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+829c47dd-0397-4209-b377-58ae43bfc916	20250125	10:39:27	 GET /category	 undefined
+a85a99f6-234d-4ced-9817-0c7d7fa263ae	20250125	10:39:27	 GET /users/	 undefined
+fafdaa64-609b-410a-8991-4ec5293569d0	20250125	10:39:27	 GET /users/ Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+13a2cea0-651e-4ead-831e-77b9f4d627e1	20250125	10:39:27	 GET /order	 undefined
+6957aca4-b60e-4d1b-95bb-4177109237ba	20250125	10:39:27	 GET /order Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+caa95073-4a48-43f2-9935-cd6058e13d19	20250125	10:39:27	 GET /products	 undefined
+1874d669-af6c-4fbb-8b9a-b2e6be117daa	20250125	10:39:27	 GET /category	 undefined
+ce114a56-349c-49cc-80b7-8e5ee7df1cd2	20250125	10:40:33	 POST /products	 undefined
+42f35fb4-65d9-47a1-a45e-2f7c095be9af	20250125	10:40:33	 POST /products Error: You are not authorized
+    at verifyAdmin (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:19:18)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:13:9
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:90:14)
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:94:10)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)	 undefined
+f3a69e5f-0957-424e-8ec4-bf33ed093eec	20250125	10:42:49	 GET /users/profile	 undefined
+8b338824-eece-42a9-88e0-4a66fd1b8073	20250125	10:42:49	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+6608d17c-8f5a-4849-bd05-d32469079258	20250125	10:42:51	 GET /users/profile	 undefined
+ed3a136e-8064-4e7c-8e9a-53fd862df28c	20250125	10:42:51	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+bd609d2c-1131-4085-bff3-bdca1ac02777	20250125	10:43:01	 POST /users/login	 undefined
+2f0d9297-2b52-4572-83eb-d26956f81c28	20250125	10:43:01	 GET /products	 undefined
+35599ad9-08d7-4d1f-9e3f-02c57ae1a9ee	20250125	10:43:01	 GET /order	 undefined
+d335a5bb-d14c-495b-8616-22f7a5b844b0	20250125	10:43:01	 GET /users/	 undefined
+2ff7ebbe-b57d-40ce-ad2d-51148bc86c74	20250125	10:43:01	 GET /category	 undefined
+d3910796-d815-47cb-81e4-3fd15fe9cf55	20250125	10:43:01	 GET /products	 undefined
+9a4e7d52-d23e-4466-8e9c-2b15c959e376	20250125	10:43:01	 GET /category	 undefined
+63768e13-7c05-4d3d-8bf3-5e4e4a8b54b2	20250125	10:43:01	 GET /order	 undefined
+e8a422c0-02ea-4705-8083-2abe348ccc98	20250125	10:43:02	 GET /users/	 undefined
+133ab724-a1bc-4d3b-a3a8-2e35cb75e2dd	20250125	10:43:22	 POST /products	 undefined
+4876fa7d-7df4-4392-a6b0-832ee5657ee6	20250125	10:49:19	 POST /products	 undefined
+d13a8153-ba3c-4121-949b-77062d0f63ea	20250125	10:49:36	 GET /products	 undefined
+0682be7f-ed95-4b40-a9af-b07100649553	20250125	10:49:36	 GET /products	 undefined
+925fa93c-51c6-4924-b51a-70e5ad351f86	20250125	10:49:36	 GET /images/product_image/image-1737781102364.jpg	 undefined
+85af9016-d36d-4bf7-b871-b2c971a21e97	20250125	10:49:36	 GET /images/product_image/image-1737781459117.jpg	 undefined
+609c074c-73aa-4494-a3d8-324d3f813d2c	20250125	10:49:36	 GET /images/product_image/image-1737643919165.jpg	 undefined
+bb294eb3-c1fa-4958-b722-01c676fbdf4a	20250125	10:51:34	 GET /products	 undefined
+e3376d1b-06ee-407b-9fb3-f733cdf2d623	20250125	10:51:34	 GET /category	 undefined
+9e4c767e-a09e-4147-a057-d3d000574af3	20250125	10:51:34	 GET /users/	 undefined
+787aff5e-7f09-4112-b27e-b2cb83ce9b7c	20250125	10:51:34	 GET /order	 undefined
+b1e7e580-26b6-4a56-b1df-4c2db8f82d39	20250125	10:51:35	 GET /products	 undefined
+c7e66712-bee9-49d4-ab0e-3e9e040d7b09	20250125	10:51:35	 GET /category	 undefined
+207410c4-5031-49c0-a7ea-e108b7bd20f4	20250125	10:51:35	 GET /users/	 undefined
+83e71366-1ad3-46ca-b600-967345ade71f	20250125	10:51:35	 GET /order	 undefined
+dff55ba8-5076-4b22-ad6c-c48d158cbf87	20250125	10:55:19	 POST /products	 undefined
+51760207-070c-43a9-a43a-23d038f7e67c	20250125	10:59:47	 POST /products	 undefined
+3322fb67-d195-41a3-abd0-43750b8e4f65	20250125	11:04:16	 POST /products	 undefined
+32c38764-31ad-4ca9-b58c-6399ae20a345	20250125	11:04:16	 POST /products Error: File format not supported.
+    at imageFileFilter (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\upload.js:16:19)
+    at wrappedFileFilter (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:567:19)	 undefined
+d64848a8-2851-4243-adcd-5235bc668fbb	20250125	11:07:41	 POST /products	 undefined
+e02a29f5-c5b5-4f0b-b92b-79507310e18b	20250125	11:07:45	 GET /users/	 undefined
+020303e0-558a-49a7-b096-92105f1105b2	20250125	11:07:45	 GET /users/	 undefined
+3a748b41-e76d-4622-a837-f5fb39218be5	20250125	11:07:45	 GET /images/user_image/IMG-1736693889675.png	 undefined
+f0f2d66e-3252-4bf5-a7d3-c2058c304d6d	20250125	11:07:45	 GET /images/user_image/IMG-1737780796271.jpeg	 undefined
+1a0fc25e-6381-43f0-a9c3-cac16190c80a	20250125	11:07:45	 GET /images/user_image/IMG-1736612642394.jpeg	 undefined
+89caae7b-5695-40c4-8974-9f0bece6b7cf	20250125	11:08:09	 GET /products	 undefined
+4aab9e32-08d1-4467-a5de-f2b948930191	20250125	11:08:09	 GET /products	 undefined
+5e6705ce-756a-40ee-be7f-b374903da58c	20250125	11:08:09	 GET /images/product_image/image-1737781819062.jpg	 undefined
+aaaf5140-f574-4c77-a80e-10c101306993	20250125	11:08:09	 GET /images/product_image/image-1737782561371.jpg	 undefined
+97e63cc2-3ad9-407d-8253-293e9e71540b	20250125	11:08:09	 GET /images/product_image/image-1737782087050.jpg	 undefined
+5881c149-b261-4fbe-9bfd-02b293054164	20250125	11:08:09	 GET /images/product_image/image-1737643919165.jpg	 undefined
+ee8ee31e-ac95-41ab-b878-6d275acbeb6c	20250125	11:08:09	 GET /images/product_image/image-1737781102364.jpg	 undefined
+73391643-a714-48bf-8784-e941d5ac95f5	20250125	11:08:09	 GET /images/product_image/image-1737781459117.jpg	 undefined
+b169d3d5-9659-48b4-9fd3-a0003647f298	20250125	11:09:36	 POST /products	 undefined
+e663182f-0a63-496c-a9fd-cf540f6f714d	20250125	11:10:56	 GET /products	 undefined
+ddd0e5b1-b437-4826-b9dd-7e30e8d5ecd1	20250125	11:10:56	 GET /order	 undefined
+418cc6eb-f2d2-466c-a27d-cd48b5817682	20250125	11:10:56	 GET /users/	 undefined
+e68054ba-5aee-487a-81de-1954bf6d8c23	20250125	11:10:56	 GET /category	 undefined
+1f85c88f-d956-4041-b285-adef8d9188f1	20250125	11:10:56	 GET /order	 undefined
+804fe1b9-4e87-4aa4-a798-1e32bdc5e790	20250125	11:10:56	 GET /products	 undefined
+75487d98-7957-411b-a7e5-fd756e26015a	20250125	11:10:56	 GET /users/	 undefined
+5bbeefcc-315a-45dc-84ec-bf0732b2daf4	20250125	11:10:56	 GET /category	 undefined
+037c8cc2-5a57-45e8-97e1-2b8a22d19bde	20250125	11:12:12	 POST /products	 undefined
+4a6ce499-3fdd-41f4-8c85-bbe3d77ca920	20250125	11:14:22	 POST /products	 undefined
+828cf696-8c8e-41df-bfd3-17a4b33a3a16	20250125	11:17:43	 POST /products	 undefined
+d8232c62-05d5-4ad8-9993-d7dfb19d7459	20250125	11:17:48	 GET /products	 undefined
+38352fae-aa78-44a1-ad73-c85c33e88b57	20250125	11:17:48	 GET /products	 undefined
+ddda6b81-aa2e-4450-babd-7f214e3210e6	20250125	11:17:48	 GET /images/product_image/image-1737643919165.jpg	 undefined
+5b91c36e-eabf-4bc0-9470-3559eeca4075	20250125	11:17:48	 GET /images/product_image/image-1737781102364.jpg	 undefined
+063c65bb-215a-4791-9093-f8fe76b134d9	20250125	11:17:48	 GET /images/product_image/image-1737781459117.jpg	 undefined
+003266ec-ebbe-422d-b15c-5f64de3aa288	20250125	11:17:48	 GET /images/product_image/image-1737781819062.jpg	 undefined
+acc1c7f0-6988-404d-a175-49a721bfabee	20250125	11:17:48	 GET /images/product_image/image-1737782087050.jpg	 undefined
+33899f6b-715d-4f38-8db1-6305d5c6aea0	20250125	11:17:48	 GET /images/product_image/image-1737782676083.jpg	 undefined
+431df9f0-f474-456e-b8ac-65c98815add3	20250125	11:17:48	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+d6200fbe-3250-4196-9e9e-79a27d151a25	20250125	11:17:48	 GET /images/product_image/image-1737782832788.jpg	 undefined
+b95509fd-243e-46a5-b4cc-c8da793d640d	20250125	11:17:48	 GET /images/product_image/image-1737783163077.jpg	 undefined
+7d5b2f4d-4a88-41bb-a93d-98b8c25293df	20250125	11:17:48	 GET /images/product_image/image-1737782561371.jpg	 undefined
+401d638d-dbb0-4f32-9bbf-3be8b1e12931	20250125	11:18:00	 DELETE /products/6794752185cfdcdc5131d3ec	 undefined
+4d26205f-5af8-4e9e-9c35-447b45ccd7d6	20250125	11:24:21	 GET /products	 undefined
+95852d61-32eb-467d-85d3-fd23f04331c7	20250125	11:24:21	 GET /order	 undefined
+fbc573da-8d51-49b3-b6d5-646b4a42ba3e	20250125	11:24:21	 GET /users/	 undefined
+0836c586-95cf-4db6-b3b7-60a0e86d3319	20250125	11:24:21	 GET /order	 undefined
+f580916d-5f1e-4ed1-be27-c0ef23292650	20250125	11:24:21	 GET /products	 undefined
+77d7d8cf-9615-432f-a6a3-279491936853	20250125	11:24:21	 GET /users/	 undefined
+2b6af632-b109-42f2-85b9-29a9664e05d4	20250125	11:24:29	 GET /category	 undefined
+7ea41088-12f1-4f9b-bfb2-04042f4714ec	20250125	11:24:29	 GET /category	 undefined
+57dbcbb1-1bc1-4f6f-90b9-815dd4649b5a	20250125	11:24:31	 GET /users/profile	 undefined
+8c3817d4-992f-40bf-867c-f9a824eb80a1	20250125	11:24:31	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+340f1096-51eb-43ab-9eb2-0c872f8f801b	20250125	11:24:34	 GET /users/profile	 undefined
+93275662-ef5f-4582-a9b0-f8bb63e91faa	20250125	11:24:34	 GET /users/profile JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\jsonwebtoken\verify.js:63:17)
+    at verifyUser (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\auth.js:10:9)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\express\lib\router\index.js:175:3)	 undefined
+79090631-71d1-404e-b7fc-8f49c12da87a	20250125	11:24:58	 POST /users/login	 undefined
+9de1348c-2a02-4c8f-860b-72398c619b27	20250125	11:25:17	 GET /users/profile/	 undefined
+04b2e918-b102-48c4-b2e0-6868ae19a79a	20250125	11:25:17	 GET /users/profile/	 undefined
+419701b6-7e22-4d32-bc3e-8d97a92202e9	20250125	11:29:30	 GET /users/profile/	 undefined
+62e43e9c-78a1-4d47-a173-fd00980ce7e4	20250125	11:29:30	 GET /products	 undefined
+53c2c643-503b-4447-a229-33fffa233d28	20250125	11:29:30	 GET /users/profile/	 undefined
+80952bc5-c05f-487a-99ba-512659e61438	20250125	11:29:30	 GET /products	 undefined
+e8c3b590-4a40-4e0a-ade7-9f77a0db611f	20250125	11:29:30	 GET /products	 undefined
+ae1718ec-5b64-4b09-a323-ef2aca155cdc	20250125	11:29:30	 GET /images/product_image/image-1737781102364.jpg	 undefined
+e6a9a683-e98e-4032-9664-5a5eb4223c57	20250125	11:29:30	 GET /images/product_image/image-1737781459117.jpg	 undefined
+ca588bd5-781f-46d9-91f2-52748bc78714	20250125	11:29:30	 GET /images/product_image/image-1737781819062.jpg	 undefined
+ea9288c2-ea5e-4f20-8736-21252c402545	20250125	11:29:30	 GET /images/product_image/image-1737643919165.jpg	 undefined
+eaa66b05-70b7-4967-be68-a4be049d3b9c	20250125	11:29:30	 GET /images/product_image/image-1737782087050.jpg	 undefined
+f135546c-9fc0-493a-8399-4fcbff0b1e0b	20250125	11:29:30	 GET /images/product_image/image-1737782676083.jpg	 undefined
+d2489429-fb93-408d-bf2a-60c78e56f71f	20250125	11:29:30	 GET /images/product_image/image-1737782832788.jpg	 undefined
+8e2af77b-9be3-4f71-9b7e-a5d6429828fe	20250125	11:29:30	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+f260eef3-c285-4801-a83e-3eaae766d867	20250125	11:29:30	 GET /images/product_image/image-1737783163077.jpg	 undefined
+a0057519-3d11-4eed-80b3-50f0af29b957	20250125	11:29:30	 GET /products	 undefined
+2bbf8678-7696-4205-aab7-7fe1b0b835dd	20250125	11:30:39	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+0cb616e2-a994-43a7-a778-e720bf7d0e1d	20250125	11:30:39	 GET /users/profile/	 undefined
+21bdcab0-fc12-446a-8181-fb44eb60efd0	20250125	11:30:39	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+d398aa9b-c513-458e-8d87-ca3afd2fff87	20250125	11:30:39	 GET /users/profile/	 undefined
+0f5f1ea3-6771-4e21-921b-718b597a3ba2	20250125	11:31:10	 POST /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+2db49b9f-13b3-4d97-80a7-2a9b43139b8e	20250125	11:31:15	 GET /users/profile	 undefined
+5706013c-6234-4a58-b3e9-0ed93af94d92	20250125	11:31:19	 GET /users/profile	 undefined
+86c778f0-db01-4a14-87a4-05c2139ee88f	20250125	11:31:25	 GET /users/profile	 undefined
+aac85561-f744-4d2e-bb5c-ea1a8e9913e3	20250125	11:31:25	 GET /products	 undefined
+b8329552-2ecc-4bf4-9d8f-8564fdc3807b	20250125	11:31:25	 GET /users/profile/	 undefined
+3c37b8b0-3e74-4375-8f1f-5e08ef233d9a	20250125	11:31:25	 GET /products	 undefined
+23d0de2e-b794-49ad-8291-617b6d0f8a69	20250125	11:31:25	 GET /users/profile/	 undefined
+c922a556-5e3b-4156-a821-522f38b6aea4	20250125	11:31:25	 GET /products	 undefined
+a45e7ae6-69b0-462d-8984-3d29992ed537	20250125	11:31:25	 GET /images/product_image/image-1737643919165.jpg	 undefined
+52ee3afa-3716-4572-9938-090b42cbc35d	20250125	11:31:25	 GET /images/product_image/image-1737781102364.jpg	 undefined
+1185d584-98d9-4561-9851-695ff377c4ab	20250125	11:31:25	 GET /images/product_image/image-1737781459117.jpg	 undefined
+1dc3ba24-fd18-48d7-a51b-12e7503d9454	20250125	11:31:25	 GET /images/product_image/image-1737781819062.jpg	 undefined
+19c05194-f1af-44cc-920d-73bd4ff88e0f	20250125	11:31:25	 GET /images/product_image/image-1737782087050.jpg	 undefined
+95234532-f71b-4242-9c9d-445b4147eaa4	20250125	11:31:25	 GET /images/product_image/image-1737782676083.jpg	 undefined
+174e31a3-4f84-45b1-87f2-6220797bf1a9	20250125	11:31:25	 GET /images/product_image/image-1737782832788.jpg	 undefined
+11254a77-c94e-49c1-9fe1-efdbf4e83bc7	20250125	11:31:25	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+9c443810-f757-486d-a208-943097c88d9d	20250125	11:31:25	 GET /images/product_image/image-1737783163077.jpg	 undefined
+18107743-55bd-44ef-8e07-9c6f57a35a47	20250125	11:31:25	 GET /products	 undefined
+60292ca6-df57-4689-814b-94501a3f6c6c	20250125	11:31:27	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+633adb89-e65f-405f-810a-99d4c2ead6a7	20250125	11:31:27	 GET /users/profile/	 undefined
+5dd98419-8f58-49dc-924d-604d4aed60c2	20250125	11:31:27	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+d8e7b336-4611-4a3b-9088-1ca1cee87316	20250125	11:31:27	 GET /users/profile/	 undefined
+35800424-0ec4-4823-82a2-c40ec7f047e2	20250125	11:33:19	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+ab4be5d2-ac41-4dc3-9b35-9faa2d0ae1ce	20250125	11:33:39	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+dd15d032-a153-443f-ab11-22ab0c5ce37d	20250125	11:33:52	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+c0666986-8e20-40fe-920f-7d43d2495ca8	20250125	11:34:01	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+a03aad12-0531-4786-a25a-28673d354de2	20250125	11:34:18	 GET /products	 undefined
+9f70c84d-3c8f-4282-896d-a676747bb28b	20250125	11:34:18	 GET /images/product_image/image-1737643919165.jpg	 undefined
+4d753f26-5e5c-497d-acbf-f4dff765ceab	20250125	11:34:18	 GET /users/profile/	 undefined
+4b38c00f-6dd5-4c28-a9c2-7aa370223717	20250125	11:34:18	 GET /images/product_image/image-1737781459117.jpg	 undefined
+1afd404e-2a9e-4191-bd45-a7cf8f9749e0	20250125	11:34:18	 GET /images/product_image/image-1737781819062.jpg	 undefined
+10620333-3c28-4de0-93a1-c868169ca438	20250125	11:34:18	 GET /products	 undefined
+60eac160-5ea7-4b7d-8771-3be76f44eab3	20250125	11:34:18	 GET /images/product_image/image-1737782087050.jpg	 undefined
+caaf42d1-1c2b-4c9e-aba4-0fed94d462a1	20250125	11:34:18	 GET /images/product_image/image-1737782676083.jpg	 undefined
+582a4c9b-ff72-447b-a0a4-1fe58f4dfdd1	20250125	11:34:18	 GET /users/profile/	 undefined
+3b59d0c5-1f10-4969-b0d2-be5830b25df8	20250125	11:34:18	 GET /images/product_image/image-1737782832788.jpg	 undefined
+df53e7ec-d00b-4bee-8f74-12c2bdda387c	20250125	11:34:18	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+eb0b4965-c4d4-479d-a97c-1ff1cf35e741	20250125	11:34:18	 GET /images/product_image/image-1737783163077.jpg	 undefined
+c13dad47-b83e-4665-8b92-3180ce31c0e0	20250125	11:34:18	 GET /products	 undefined
+e82540e4-0886-4b54-a18f-f41ae75188d0	20250125	11:34:18	 GET /products	 undefined
+9b4a5c4d-33df-469a-a1ce-fcfebfee21ed	20250125	11:34:55	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+ffc27b92-511c-48d5-a292-5f7ab2e95cb7	20250125	11:34:55	 GET /users/profile/	 undefined
+1daf11bd-127e-4eda-8acf-ffdaa2fd2579	20250125	11:34:55	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+f349dbd1-17da-4160-9e02-259f25965a3b	20250125	11:34:55	 GET /users/profile/	 undefined
+2bd94c5e-7036-4926-a387-b0458f38037a	20250125	11:35:07	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+8229ef57-b01e-4325-9c81-20e182cba029	20250125	11:35:21	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+d8241fcb-bc26-455b-8138-697ce065b6fa	20250125	11:35:30	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+82ac3921-6f94-47ed-8cc5-73a30f6dd481	20250125	11:35:36	 GET /users/profile	 undefined
+1b92f898-c6e0-40eb-b6b6-c282b8e89ca8	20250125	11:35:43	 GET /users/profile	 undefined
+2bfa23ca-fbec-41d4-b488-00110e5fdb99	20250125	11:35:43	 GET /products	 undefined
+d359600a-edca-42f3-b2c4-108ee93e0f2f	20250125	11:35:43	 GET /users/profile/	 undefined
+021b0c5a-ff01-43fe-9b36-2bf26e279178	20250125	11:35:43	 GET /users/profile/	 undefined
+1d9a5f83-3dfc-4c43-b68b-85c804d93654	20250125	11:35:43	 GET /products	 undefined
+eba631ed-93a6-4a7b-b758-eb36ffc245d4	20250125	11:35:43	 GET /products	 undefined
+1e226a41-807e-4e78-bff8-807c3904c5c2	20250125	11:35:43	 GET /images/product_image/image-1737643919165.jpg	 undefined
+5a426ab5-30bf-4b89-9008-6c1d96538545	20250125	11:35:43	 GET /images/product_image/image-1737781102364.jpg	 undefined
+a09aaad3-8fd4-41bb-af0f-bd20a146aa01	20250125	11:35:43	 GET /images/product_image/image-1737781459117.jpg	 undefined
+b061e16c-3521-405e-a897-6eea380986de	20250125	11:35:43	 GET /images/product_image/image-1737781819062.jpg	 undefined
+2b8147bc-4e68-4cdf-9a5d-e86093692b11	20250125	11:35:43	 GET /images/product_image/image-1737782676083.jpg	 undefined
+0c13dae6-6a8a-46b6-8a04-266c23b51985	20250125	11:35:43	 GET /images/product_image/image-1737782087050.jpg	 undefined
+a76c1d6f-2985-485c-87d1-143573d9e337	20250125	11:35:43	 GET /images/product_image/image-1737782832788.jpg	 undefined
+c5acfbc6-92f1-42f9-b7ff-a6521334f590	20250125	11:35:43	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+202caabe-ddae-4f90-8d2b-be45732733c9	20250125	11:35:43	 GET /products	 undefined
+f46a2a90-2d40-49ad-93b1-c25758be5de4	20250125	11:35:43	 GET /images/product_image/image-1737783163077.jpg	 undefined
+341f6b45-1cf6-40fb-8382-9d2e9c27d9a5	20250125	11:35:45	 GET /users/profile/	 undefined
+df40b468-94d4-4a56-a0e4-932924716e8a	20250125	11:35:45	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+aa3b214d-bec7-4492-99ae-d4b51a504a0c	20250125	11:35:45	 GET /users/profile/	 undefined
+a8536434-2adb-4e94-b615-91046b82a7d5	20250125	11:35:45	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+dc068b61-fbde-479f-aba6-0d95e9d87ec7	20250125	11:35:55	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+9cde647d-064a-46ac-9925-b3c6a6363634	20250125	11:36:26	 POST /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+c0372d77-6f91-4f9a-802f-328310f48cb1	20250125	11:36:32	 GET /users/profile	 undefined
+c4e2acc9-9dc0-4496-a96f-4054ca4c59ad	20250125	11:36:36	 GET /users/profile	 undefined
+445d0d21-9789-4875-b984-f4a20bb3a618	20250125	11:36:36	 GET /users/profile/	 undefined
+e53570a6-2074-4377-9042-05d1996231ff	20250125	11:36:36	 GET /products	 undefined
+a573753d-7d0c-4b98-95e6-00769dfb45e4	20250125	11:36:36	 GET /products	 undefined
+5f885493-a4eb-49ff-83b6-f054a669ab6b	20250125	11:36:36	 GET /users/profile/	 undefined
+45350557-e652-444d-9372-657ece7253ee	20250125	11:36:36	 GET /products	 undefined
+cefc1ea2-9db1-4a96-ad57-8fcf4a534e10	20250125	11:36:37	 GET /images/product_image/image-1737781102364.jpg	 undefined
+db8f9e0c-8c95-4601-841b-3106ea09b2f7	20250125	11:36:37	 GET /images/product_image/image-1737643919165.jpg	 undefined
+33141833-0b13-4e85-8474-76e161539971	20250125	11:36:37	 GET /images/product_image/image-1737781459117.jpg	 undefined
+82060fb2-fdeb-4359-8a9d-7b881c7c09a7	20250125	11:36:37	 GET /images/product_image/image-1737781819062.jpg	 undefined
+9c6f87d9-cfea-4aa1-93a2-7b0e441e695c	20250125	11:36:37	 GET /images/product_image/image-1737782087050.jpg	 undefined
+68af7b30-6228-40c1-b56e-31526157df3d	20250125	11:36:37	 GET /images/product_image/image-1737782676083.jpg	 undefined
+818831a8-b710-4179-b3b2-ce6705b57545	20250125	11:36:37	 GET /images/product_image/image-1737782832788.jpg	 undefined
+f38687ee-a3a9-48e1-8eca-47e78122c50c	20250125	11:36:37	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+290e6821-7016-4eee-b849-fa5d666b4182	20250125	11:36:37	 GET /images/product_image/image-1737783163077.jpg	 undefined
+e7654acc-82a6-44c7-b670-e1d2826f1266	20250125	11:36:37	 GET /products	 undefined
+c69c5cd5-a265-4595-b3da-abd50970cd0e	20250125	11:36:39	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+25f00715-d12c-41d8-95fd-cae9e4ba5d30	20250125	11:36:39	 GET /users/profile/	 undefined
+2204e6a3-fe47-4e8c-a078-3bc890c57e88	20250125	11:36:39	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+1337c4bb-86b8-45ef-a73c-dc07dba8a08a	20250125	11:36:39	 GET /users/profile/	 undefined
+966ac7a5-7377-40ae-b3a5-ffd6e4a2f1a5	20250125	11:36:52	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+daa7d3f8-22c4-477c-afaa-5f48d408cc70	20250125	11:37:04	 POST /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+3bd4dae7-425e-47c8-91f9-5cadc7c837a5	20250125	11:37:12	 GET /users/profile/	 undefined
+f068f273-22ea-465d-95cb-5f47569bad66	20250125	11:37:12	 GET /users/profile/	 undefined
+ff8b9611-2205-48a9-8537-93f9a737d430	20250125	11:37:13	 GET /users/profile/	 undefined
+2945507a-500c-4da0-8ac9-f2cc63c00575	20250125	11:37:13	 GET /products	 undefined
+6aeba476-89cb-4ff6-b41e-494a19924c35	20250125	11:37:13	 GET /images/product_image/image-1737781459117.jpg	 undefined
+48a54635-cafa-49ea-b54d-9d0f12af22dc	20250125	11:37:13	 GET /images/product_image/image-1737643919165.jpg	 undefined
+a74031ab-3019-4ff2-b058-2963c3e99243	20250125	11:37:13	 GET /images/product_image/image-1737781819062.jpg	 undefined
+26f41da4-0707-4a4e-b9d7-85529c06abf4	20250125	11:37:13	 GET /users/profile/	 undefined
+88b76269-55eb-46b4-bc7a-942e4f12a11c	20250125	11:37:13	 GET /images/product_image/image-1737782087050.jpg	 undefined
+87c200d3-a3c4-4304-8cc1-651146c5b161	20250125	11:37:13	 GET /products	 undefined
+b83d6f58-fb53-4f02-aaf4-1808b1e73c80	20250125	11:37:13	 GET /images/product_image/image-1737782676083.jpg	 undefined
+bb553778-9c21-4f34-a993-b3c6af6936d9	20250125	11:37:13	 GET /images/product_image/image-1737782832788.jpg	 undefined
+e9cff040-598b-4a2b-aee4-8139296eaff3	20250125	11:37:13	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+9fa6a5a2-d844-4b3d-afb9-6697d9e19d3b	20250125	11:37:13	 GET /images/product_image/image-1737783163077.jpg	 undefined
+1a7f52c0-7ced-4d62-9460-cc42fa6312d9	20250125	11:37:13	 GET /products	 undefined
+c2a99b2b-e934-489d-8207-14aa22810786	20250125	11:37:13	 GET /products	 undefined
+cdf7f0bc-50cd-4985-a086-96b1385055a4	20250125	11:37:15	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+b5b46a3a-c801-4bb9-b417-5f4985617f02	20250125	11:37:15	 GET /users/profile/	 undefined
+f0c96594-a5d7-4048-b3a1-57d8348a07d1	20250125	11:37:15	 GET /users/profile/	 undefined
+a72f2f34-a9f6-4863-b4d0-4b26602f1673	20250125	11:37:15	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+b86882ed-29ae-4542-a524-64ed60efd343	20250125	11:38:37	 POST /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+03297241-a3b7-416f-9c95-b8c59d565d78	20250125	11:41:53	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+1ad3fd2e-06a0-44b6-9f88-a72d8ed73670	20250125	11:42:17	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+3321e904-91d3-4bd7-be23-27c6972a30f9	20250125	11:42:33	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+4548e024-5e11-4e61-8bfd-e8893d74299e	20250125	11:43:28	 GET /users/profile/	 undefined
+ea7ffe0a-226c-47b6-ae7b-fe96eb739499	20250125	11:43:29	 GET /users/profile/	 undefined
+bc175285-d7f2-496e-afe9-23497e3e7d8d	20250125	11:43:30	 GET /users/profile/	 undefined
+13fb8703-a2ee-4ae6-aaeb-0319716a48a6	20250125	11:43:30	 GET /products	 undefined
+bcc4789f-a48d-4a7d-8d6f-06dc22a8db82	20250125	11:43:30	 GET /images/product_image/image-1737781819062.jpg	 undefined
+9a2fb261-897b-4a37-adda-0802d2d70b10	20250125	11:43:30	 GET /images/product_image/image-1737781459117.jpg	 undefined
+ecbe383f-cb45-4c9c-afa4-9af7c28627c5	20250125	11:43:30	 GET /images/product_image/image-1737643919165.jpg	 undefined
+0edac518-0a36-4b7e-a88e-ee9be0ad6efa	20250125	11:43:30	 GET /products	 undefined
+22c749d6-6bcb-499b-8b7f-6ae2831b2ef2	20250125	11:43:30	 GET /images/product_image/image-1737782087050.jpg	 undefined
+f71c3ccf-f568-4454-acf7-d51fb91d0f50	20250125	11:43:30	 GET /users/profile/	 undefined
+ec52b843-d356-4ae4-8756-415f24064888	20250125	11:43:30	 GET /images/product_image/image-1737782676083.jpg	 undefined
+386f7fa7-90a5-4a54-86d0-f765eeeeb82a	20250125	11:43:30	 GET /images/product_image/image-1737782832788.jpg	 undefined
+aba67f55-5e49-4573-9f19-872e5166f0c3	20250125	11:43:30	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+e8a07925-5554-4995-8b66-3ad01abd832f	20250125	11:43:30	 GET /images/product_image/image-1737783163077.jpg	 undefined
+e90359ee-9976-436d-81d9-3f8b8af08fc7	20250125	11:43:30	 GET /products	 undefined
+7b5af4c3-78c3-4e9c-bcdb-d259b540ddf9	20250125	11:43:30	 GET /products	 undefined
+b82b471c-925b-4770-87d7-1f9912063a79	20250125	11:46:01	 GET /products/679470d385cfdcdc5131d3b0/reviews	 undefined
+4f295702-b913-464a-ad22-470dd92d210b	20250125	11:46:01	 GET /users/profile/	 undefined
+e5181782-0689-4dcb-a472-5486ac7e9106	20250125	11:46:01	 GET /users/profile/	 undefined
+4407841a-37b5-487d-a061-9263ff86227e	20250125	11:46:01	 GET /products/679470d385cfdcdc5131d3b0/reviews	 undefined
+f85b37b0-739b-4eb2-8e94-7cbfdb200b0e	20250125	11:46:09	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+e1d05a79-65a0-4533-a485-1bae1af1a105	20250125	11:46:09	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+08f0f5a1-1073-428a-979c-59df55fe0828	20250125	11:46:13	 GET /products/679470d385cfdcdc5131d3b0/reviews	 undefined
+80ca8913-a15a-4963-9d8a-81a0fdd6dad8	20250125	11:46:13	 GET /users/profile/	 undefined
+4e20fe1d-d20f-474d-8921-1324ae3405a0	20250125	11:46:13	 GET /products/679470d385cfdcdc5131d3b0/reviews	 undefined
+d0cb1178-3943-42c0-a052-8eda1ba419f5	20250125	11:46:13	 GET /users/profile/	 undefined
+cf29b85a-865c-46c6-9896-025c1d8e4b7d	20250125	11:46:16	 POST /cart	 undefined
+93a6ca47-7c15-4eda-81dd-cd60f3a5e169	20250125	11:46:21	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+9e4110ce-15c7-4f9d-810e-7376ad396e82	20250125	11:46:21	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+ac08feba-4970-433d-a252-2c650c5cf712	20250125	11:46:24	 GET /users/profile	 undefined
+c4df0a0c-6397-4f39-bfff-9271bc0a3fbb	20250125	11:46:24	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+c053a4f3-4302-4c47-9a52-01bcbaba2127	20250125	11:46:24	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+ce840691-4536-452a-9951-c9df7399df17	20250125	11:46:33	 GET /users/profile	 undefined
+b2dbf00d-49bc-495c-ad55-ab37be262bbe	20250125	11:46:37	 GET /users/profile	 undefined
+b1c65cf0-8dba-43f6-a079-37ee96baf420	20250125	11:46:37	 GET /products	 undefined
+02338f6c-e878-46b1-8cdb-89a8d9154fdd	20250125	11:46:37	 GET /users/profile/	 undefined
+bfaf1c65-88c2-4342-a67c-1c52c0fae98e	20250125	11:46:37	 GET /products	 undefined
+4b447499-ae1f-4aa6-abfa-243a93739c2a	20250125	11:46:37	 GET /users/profile/	 undefined
+9b8c24b0-2485-40ce-bcd0-710d29cf6f38	20250125	11:46:37	 GET /products	 undefined
+489bcbe1-0a18-44c0-8131-d8184aa85940	20250125	11:46:37	 GET /products	 undefined
+c120accd-131a-46dc-a04c-d3cc6f06dc24	20250125	11:46:37	 GET /images/product_image/image-1737643919165.jpg	 undefined
+13779fd3-bb1d-44c3-92b6-9617b76f6340	20250125	11:46:37	 GET /images/product_image/image-1737781102364.jpg	 undefined
+11f9e05f-a32b-49bc-b1b7-922f7d0d319a	20250125	11:46:37	 GET /images/product_image/image-1737781459117.jpg	 undefined
+548298d0-94c3-4279-aab4-661b69d79b27	20250125	11:46:37	 GET /images/product_image/image-1737781819062.jpg	 undefined
+84a2d480-c4d3-4e4e-b065-bed3ab70a2e4	20250125	11:46:37	 GET /images/product_image/image-1737782087050.jpg	 undefined
+6fa8dd5f-9c2b-4b0c-bc4d-f5e76bb7f6de	20250125	11:46:37	 GET /images/product_image/image-1737782676083.jpg	 undefined
+61a7e13c-5d12-4ff9-b75d-3d853259663a	20250125	11:46:37	 GET /images/product_image/image-1737782832788.jpg	 undefined
+d5ec306a-df80-480f-a2ed-617595f497be	20250125	11:46:37	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+8bd80aba-217c-44d9-989f-817c176d8753	20250125	11:46:37	 GET /images/product_image/image-1737783163077.jpg	 undefined
+bd92ad03-ba0b-429e-ad87-b195aaedae56	20250125	11:46:40	 GET /cart/user/67946e3c85cfdcdc5131d33d	 undefined
+6a1f5d45-c784-4984-99dc-9cd78be79a0e	20250125	11:46:40	 GET /cart/user/67946e3c85cfdcdc5131d33d	 undefined
+e4ed53f5-7024-4c0a-a95e-320b85eeb423	20250125	11:46:44	 POST /order/	 undefined
+37036356-b2da-4470-a860-1c3ec48a646d	20250125	11:46:47	 DELETE /cart/user/67946e3c85cfdcdc5131d33d	 undefined
+83c3e2c3-bbeb-4e5f-bff7-057981ec7f8c	20250125	11:46:48	 DELETE /cart/user/67946e3c85cfdcdc5131d33d	 undefined
+bb5f55ea-5293-4758-aa09-9ed8d014e0bf	20250125	11:47:47	 GET /users/profile	 undefined
+92246957-f67a-44da-a8d0-16ccf52c305d	20250125	11:47:47	 POST /order/kUEmqfxxtSS8gK9DWsnkUZ	 undefined
+b4df53d5-1958-4fd4-b54a-8c685f9e238f	20250125	11:47:47	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+0e373594-5f56-4c3b-95b5-29f98e269b66	20250125	11:47:47	 POST /order/kUEmqfxxtSS8gK9DWsnkUZ	 undefined
+4df7e708-d6ff-49fd-bc9f-d111be9f9d0c	20250125	11:47:47	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+82387653-75ad-48ff-bb8d-3258c1b2aed5	20250125	11:47:47	 GET /users/profile/	 undefined
+8ec0cfeb-56e2-4721-bc22-60ab0b5b6558	20250125	11:47:48	 GET /users/profile/	 undefined
+d2036717-238b-4abc-a17e-7a62e460c080	20250125	11:47:48	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+3d542dad-5a47-4f77-8e45-e88ace7b1b00	20250125	11:47:49	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+ec8624ea-ac50-4842-ac9e-79f149cc58c5	20250125	11:48:55	 GET /users/profile	 undefined
+34c7cf5f-74e4-409c-9d16-7b29007e24af	20250125	11:48:55	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+07d2931a-0cf8-4c4c-a88a-f5280e304972	20250125	11:48:56	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+3c5a961b-4c47-4122-98ad-2dc57cedc1ca	20250125	11:48:56	 GET /users/profile/	 undefined
+6c72a85f-36fc-40e1-be74-016d63bb4ea0	20250125	11:48:56	 GET /users/profile/	 undefined
+20bea2fd-e746-4cad-a593-8b8d254ccff8	20250125	11:50:34	 GET /users/profile	 undefined
+3bcd5a99-1588-4ce9-9413-1d2d40d6549f	20250125	11:50:35	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+738e5e54-c953-4d4d-8e2b-e2a98dc867a0	20250125	11:50:35	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+c1a605ad-d0aa-4200-b2c8-f5a59378f832	20250125	11:50:35	 GET /users/profile/	 undefined
+5f8d6d93-673e-4ef5-afe8-52ebf796e500	20250125	11:50:35	 GET /users/profile/	 undefined
+a0d9e08a-0c15-4d55-993d-0f8d6540f0ba	20250125	11:51:32	 GET /users/profile	 undefined
+c8c77b76-5038-4364-95f2-1afaa37b23df	20250125	11:51:32	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+13dbb25a-feb8-4709-9464-98b41150300a	20250125	11:51:32	 GET /order/67946e3c85cfdcdc5131d33d	 undefined
+65065b04-3294-4681-bf52-fdbc365176c2	20250125	11:51:32	 GET /users/profile/	 undefined
+8b31a8a1-a1b3-4c43-aee3-4d68f1321b62	20250125	11:51:32	 GET /users/profile/	 undefined
+e72a2a92-d5e0-4991-82ba-79c03a8a10c5	20250125	11:54:20	 GET /products	 undefined
+a5538f90-e713-496b-9a29-7d736574e7a0	20250125	11:54:20	 GET /users/profile/	 undefined
+88c78bfa-f6e9-4e03-85f4-5639242252ac	20250125	11:54:20	 GET /products	 undefined
+184f05ed-843d-45d7-ae7f-2ece5dfce041	20250125	11:54:20	 GET /users/profile/	 undefined
+3193c719-8eb6-46c9-afe5-c0aecf42bc47	20250125	11:54:20	 GET /products	 undefined
+01bef4ec-286b-4756-9975-6cf965486502	20250125	11:54:20	 GET /images/product_image/image-1737643919165.jpg	 undefined
+dae00c13-4936-4cbd-b16a-a9f64acf5c97	20250125	11:54:20	 GET /images/product_image/image-1737781102364.jpg	 undefined
+c281a71a-d3b6-40d5-b1e6-36cad7f72c68	20250125	11:54:20	 GET /images/product_image/image-1737781459117.jpg	 undefined
+25186e2e-5c6e-4c94-8f43-2dd02454ca63	20250125	11:54:20	 GET /images/product_image/image-1737781819062.jpg	 undefined
+3ffeed2f-75d1-494c-9126-ed666373bda2	20250125	11:54:20	 GET /images/product_image/image-1737782087050.jpg	 undefined
+a0fc16ca-d8b2-4733-b6f2-7617d5e99cf5	20250125	11:54:20	 GET /products	 undefined
+063d674d-c9b4-474c-910d-249fd761b426	20250125	11:54:20	 GET /images/product_image/image-1737782676083.jpg	 undefined
+07ac6704-ab68-4163-800c-bc8c0ff0d18c	20250125	11:54:20	 GET /images/product_image/image-1737782832788.jpg	 undefined
+4dd828ae-8a82-4795-a948-55dbba3b503b	20250125	11:54:20	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+e00f5764-e0d3-457f-bb06-b00789ac1b0e	20250125	11:54:20	 GET /images/product_image/image-1737783163077.jpg	 undefined
+e246ce43-a889-43e6-878c-47a0f90f37ab	20250125	11:54:32	 GET /users/profile/	 undefined
+da1221ab-5603-4972-9f2f-0dbe7777b45c	20250125	11:54:32	 GET /users/profile/	 undefined
+40dd8fd8-0e8b-4586-b15b-c5f306fbb551	20250125	11:54:32	 GET /images/user_image/IMG-1737780796271.jpeg	 undefined
+24d118c9-6192-41e4-8c1a-76c3bc1a3764	20250125	11:54:32	 GET /users/profile/	 undefined
+9946c44f-b44a-45f0-b163-bf8b6a9be443	20250125	11:54:32	 GET /users/profile/	 undefined
+e3e27281-59d1-4b53-acd5-e36b643fe77a	20250125	11:54:46	 PUT /users/67946e3c85cfdcdc5131d33d	 undefined
+2d964e40-efcf-4e41-80de-bf85e7dde016	20250125	11:54:46	 PUT /users/67946e3c85cfdcdc5131d33d Error: Invalid file type
+    at DiskStorage.destination [as getDestination] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\middleware\uploaduser.js:15:26)
+    at DiskStorage._handleFile (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\storage\disk.js:31:8)
+    at C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:137:17
+    at allowAll (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:8:3)
+    at wrappedFileFilter (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\index.js:44:7)
+    at Multipart.<anonymous> (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\multer\lib\make-middleware.js:107:7)
+    at Multipart.emit (node:events:524:28)
+    at HeaderParser.cb (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\bhumi\OneDrive\Desktop\ArtSphere Final Project\Backend\node_modules\busboy\lib\types\multipart.js:394:37)	 undefined
+771aae35-4c0d-466e-ac1c-02e545c60f7b	20250125	11:55:05	 PUT /users/67946e3c85cfdcdc5131d33d	 undefined
+87bcb16f-9bc5-443f-8389-c0ce3fc17205	20250125	11:55:45	 PUT /users/67946e3c85cfdcdc5131d33d	 undefined
+9996c655-e80b-44b4-bc94-3905a41645ab	20250125	11:55:57	 GET /users/profile/	 undefined
+2cec0faa-e774-47f2-92c4-bf8408d0c38c	20250125	11:55:57	 GET /users/profile/	 undefined
+44d3ea98-a8bc-4f38-9de7-6591b1f7ca17	20250125	11:56:03	 GET /users/profile	 undefined
+f978794f-600a-4834-9250-ea30cca41e7c	20250125	11:56:03	 GET /users/profile/	 undefined
+942bf3ec-9c2f-4c38-847f-49c6bf50fb64	20250125	11:56:03	 GET /users/profile/	 undefined
+97c42747-8c5f-4596-bb9c-25d9591d8a3c	20250125	11:56:28	 GET /users/profile	 undefined
+c69bb9a1-6852-43a3-9133-e54a8bfb3182	20250125	11:56:29	 GET /users/profile/	 undefined
+ade2ac88-1bf9-4d1a-96ab-80dd1c701ac5	20250125	11:56:29	 GET /users/profile/	 undefined
+4ff14be4-7319-4ee4-9b4a-55f619b13321	20250125	11:56:48	 GET /users/profile	 undefined
+a716fd5c-e712-4855-915b-623de6dfaf4d	20250125	11:56:48	 GET /users/profile/	 undefined
+c0f1bd80-a872-42ef-8aee-43f649dfa44a	20250125	11:56:48	 GET /users/profile/	 undefined
+4083f8e3-771b-4d7d-8ba3-1ad8352b71a0	20250125	11:56:57	 GET /users/profile	 undefined
+5ce23187-9f9e-4ae4-be88-a9c7d7651dfb	20250125	11:56:57	 GET /users/profile/	 undefined
+399d2d82-60fe-48b0-99bd-b0eb38be65fd	20250125	11:56:57	 GET /users/profile/	 undefined
+1fda63ce-6ab7-44b5-973d-d00e198588a1	20250125	11:57:13	 GET /users/profile	 undefined
+2a874910-4903-489d-932c-c21cc7d4ebc0	20250125	11:57:13	 GET /users/profile/	 undefined
+db7a8799-48e0-45d9-8142-3dab96d84d05	20250125	11:57:13	 GET /users/profile/	 undefined
+4cefb574-9bb0-4bb1-b026-f3a3d2ddb554	20250125	11:59:02	 GET /users/profile	 undefined
+c7ec9c3e-3b7a-4fdc-a43a-1e9d254b70f4	20250125	11:59:02	 GET /users/profile/	 undefined
+9b206cf6-a184-4a6b-b122-c6c536ebe81c	20250125	11:59:02	 GET /users/profile/	 undefined
+29e699a5-a8e9-42ca-9a4f-48ddc295b12f	20250125	12:00:29	 GET /users/profile	 undefined
+668a7ef1-c6c4-4cb3-9cce-b084de5df438	20250125	12:00:29	 GET /users/profile/	 undefined
+a4329000-ec4d-496e-b9c9-2df37b7425e1	20250125	12:00:29	 GET /users/profile/	 undefined
+c60fdf8c-c5d7-40ac-b6cb-21cd1dfc4782	20250125	12:03:35	 GET /users/profile	 undefined
+a4d9e9f4-3c23-4927-8fff-c9049b076663	20250125	12:03:35	 GET /products	 undefined
+1f0d77c4-1125-4b64-867f-0494f988ec1a	20250125	12:03:35	 GET /users/profile/	 undefined
+db0ee6b2-d1f5-4b75-bd01-5b379122e3d6	20250125	12:03:35	 GET /products	 undefined
+6cfe8111-3323-4675-9299-4dd79fb119b9	20250125	12:03:35	 GET /users/profile/	 undefined
+c58bf205-9224-4928-98dd-f325c3a7b3e3	20250125	12:03:35	 GET /products	 undefined
+cf013375-d25d-4a31-8f62-a84a03c0324b	20250125	12:03:35	 GET /images/product_image/image-1737643919165.jpg	 undefined
+e9fb5180-7864-4cf6-a6b0-642fccf0e232	20250125	12:03:35	 GET /images/product_image/image-1737781102364.jpg	 undefined
+ac16b594-6780-40fc-b08e-693bd39f4b61	20250125	12:03:35	 GET /images/product_image/image-1737781459117.jpg	 undefined
+e2bd5682-bf1b-4c17-a33c-bd43455f817b	20250125	12:03:35	 GET /images/product_image/image-1737781819062.jpg	 undefined
+91480545-1daa-46de-b67f-134510fc101b	20250125	12:03:35	 GET /images/product_image/image-1737782087050.jpg	 undefined
+ade7ba58-7f16-4d8d-a62e-b5e379b802e1	20250125	12:03:35	 GET /products	 undefined
+0fbe5e12-2834-4bf8-acd6-8ccbd11234b7	20250125	12:03:35	 GET /images/product_image/image-1737782676083.jpg	 undefined
+ba3ae794-b1e4-409e-8137-eeeeedb9e69e	20250125	12:03:35	 GET /images/product_image/image-1737782832788.jpg	 undefined
+f0d1a083-414c-4891-8645-4593d4ec5346	20250125	12:03:35	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+b565177d-9e71-49bf-b781-8cb72ddf0359	20250125	12:03:35	 GET /images/product_image/image-1737783163077.jpg	 undefined
+9cf85add-d05f-4a97-a0d0-9f8d28b7979f	20250125	12:06:21	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+6c3c4f4a-a5cb-449b-abe3-4e6ccc69fd45	20250125	12:06:21	 GET /users/profile/	 undefined
+3fb40973-dfee-4760-bab0-fb33db9b1d48	20250125	12:06:22	 GET /users/profile/	 undefined
+9e0b2be8-bf53-4591-a12a-06bc07dcda54	20250125	12:06:22	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+71fd67ae-2440-4ff4-98e4-054b9e9758f1	20250125	12:06:55	 GET /users/profile/	 undefined
+69c8d57d-c23d-4a35-a484-c8391e79a871	20250125	12:06:55	 GET /products	 undefined
+b9f78888-1b38-47cb-92b8-b258f478bcff	20250125	12:06:55	 GET /images/product_image/image-1737781819062.jpg	 undefined
+c9117a9d-ae3b-4b25-a7b5-29326bc5ef01	20250125	12:06:55	 GET /images/product_image/image-1737781459117.jpg	 undefined
+b4e336b1-172e-4334-beb0-c3805f516b8e	20250125	12:06:55	 GET /images/product_image/image-1737643919165.jpg	 undefined
+a7cc3336-069f-44d9-9af9-fac67ca2643d	20250125	12:06:55	 GET /products	 undefined
+377f93a5-724d-4071-b03e-16a129959932	20250125	12:06:55	 GET /images/product_image/image-1737782087050.jpg	 undefined
+fe9c44b3-9f0a-4baf-b3cb-7f660bc0bd1e	20250125	12:06:55	 GET /users/profile/	 undefined
+6ae6ca5f-9d4a-4ae6-9081-c64d8f863cea	20250125	12:06:55	 GET /images/product_image/image-1737782676083.jpg	 undefined
+e83bb380-6b70-4245-9c61-8684ac2f4309	20250125	12:06:55	 GET /images/product_image/image-1737782832788.jpg	 undefined
+f4f904eb-c61c-465a-ac53-f322093715ec	20250125	12:06:55	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+d32e29d4-4f16-4ad5-bf6b-e1e55f69c75d	20250125	12:06:55	 GET /images/product_image/image-1737783163077.jpg	 undefined
+91c82d2e-c932-426c-97e0-7640855e372f	20250125	12:06:55	 GET /products	 undefined
+d5181192-05af-4e65-a9a8-aceaa917d470	20250125	12:06:55	 GET /products	 undefined
+4dcfe683-3b9b-4b37-941f-9a23611799ae	20250125	12:07:54	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+6c940031-659b-4b64-82de-8f13d2bf2f41	20250125	12:07:54	 GET /users/profile/	 undefined
+d9202a9b-16f9-47f9-9273-8f1b196a1375	20250125	12:07:54	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+8fb6fd2b-7615-44ba-aa21-2bdd55124d47	20250125	12:07:54	 GET /users/profile/	 undefined
+189f1e74-0fc6-4109-86ab-c087e61249a8	20250125	12:08:48	 GET /products	 undefined
+8b5935dc-7c5f-47dd-8adf-e0b63539906b	20250125	12:08:48	 GET /users/profile/	 undefined
+5842872e-9b86-49bb-a5f1-6760c739a0e3	20250125	12:08:48	 GET /products	 undefined
+7bf50374-6b5e-4b01-8ccf-146e4b6de41e	20250125	12:08:48	 GET /users/profile/	 undefined
+e300631b-c810-4412-ba37-d37e4e59f436	20250125	12:08:48	 GET /products	 undefined
+3a107a8d-ba64-4902-9493-87743b0ff2e8	20250125	12:08:48	 GET /products	 undefined
+b94d312b-8a11-42ac-b5d2-bb3afda7c61e	20250125	12:09:41	 GET /products	 undefined
+203e729c-9404-44ad-8662-6c932b3d4ce5	20250125	12:10:47	 GET /products	 undefined
+a4a3abc8-0f23-43a3-a5b2-55c80cf7fcea	20250125	12:14:04	 GET /users/profile	 undefined
+36a5f78b-2027-40e6-a202-d0d64d49fa20	20250125	12:14:04	 GET /products	 undefined
+915d56a1-e93f-41c0-9cbc-d422ddef7e63	20250125	12:14:04	 GET /users/profile/	 undefined
+927ef1d3-2100-4a15-83aa-b4e98c774aab	20250125	12:14:04	 GET /users/profile/	 undefined
+c8c4c627-18a7-4d34-a66a-ddb9d1738d23	20250125	12:14:04	 GET /products	 undefined
+7c6cc9b4-473f-4c8f-9fe8-59fbdf7b1b26	20250125	12:14:04	 GET /products	 undefined
+a489622c-94c8-423a-9e65-ac5e02edd813	20250125	12:14:04	 GET /images/product_image/image-1737643919165.jpg	 undefined
+63af34e0-e29d-442b-acc4-db9bb6743932	20250125	12:14:04	 GET /images/product_image/image-1737781102364.jpg	 undefined
+b7031305-99bd-489b-abf4-98c2865189d2	20250125	12:14:04	 GET /images/product_image/image-1737781459117.jpg	 undefined
+d253f57a-b099-49a8-bdcd-a73b3292e1cc	20250125	12:14:04	 GET /images/product_image/image-1737781819062.jpg	 undefined
+717f5d83-0a09-4556-af76-63adb06aca9f	20250125	12:14:04	 GET /images/product_image/image-1737782087050.jpg	 undefined
+d59f8f15-0fa5-4fa7-a6a0-183bfd251ded	20250125	12:14:04	 GET /images/product_image/image-1737782676083.jpg	 undefined
+cc9dd3b1-14be-4477-88ca-0f8e5b0ad005	20250125	12:14:04	 GET /images/product_image/image-1737782832788.jpg	 undefined
+4d223005-2ac3-4cb4-b362-cc6cc04025e9	20250125	12:14:04	 GET /images/product_image/image-1737782962697.jpeg	 undefined
+2e9f797d-14e5-4af9-9a8f-3ff094c5885c	20250125	12:14:04	 GET /images/product_image/image-1737783163077.jpg	 undefined
+bf7055bb-1304-4335-9213-712a59def3e5	20250125	12:14:04	 GET /products	 undefined
+f43635d4-4296-4652-9cfd-0a188de96ca5	20250125	12:15:28	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined
+9017697c-d0c8-4eab-b149-c1fe39127265	20250125	12:15:28	 GET /users/profile/	 undefined
+738d844e-461e-4c7b-ade7-08a9851144a4	20250125	12:15:28	 GET /users/profile/	 undefined
+f5458101-bf7f-4766-90df-a9823d4e942b	20250125	12:15:28	 GET /products/67946f6e85cfdcdc5131d3ae/reviews	 undefined

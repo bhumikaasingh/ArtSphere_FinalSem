@@ -69,7 +69,7 @@ const SingleProductPage = ({ product }) => {
                     setRating(0); // Reset rating
                     setComment(''); // Reset comment
                 } else {
-                    message.error("Failed to add review");
+                    message.error("Add review");
                 }
             })
             .catch((error) => {
@@ -105,7 +105,7 @@ const SingleProductPage = ({ product }) => {
                             </div>
                             <span className='divider'></span>
                             <div className="info-item">
-                                <span className='text-bold'>Category:
+                                <span className='text-bold'>Category: Medium 
                                     <span> {product.category.categoryName}</span>
                                 </span>
                             </div>

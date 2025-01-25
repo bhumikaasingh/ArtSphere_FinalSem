@@ -4,8 +4,8 @@
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: lightgrey;
+    box-shadow: 0 2px 8px rgba(231, 227, 227, 0.1);
 }
 
 .product-card:hover {

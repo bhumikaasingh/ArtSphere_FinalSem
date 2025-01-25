@@ -15,39 +15,44 @@ function Register() {
   const [password, setPassword] = useState("");
   const [cpassword, setCPassword] = useState("");
   const [message, setMessage] = useState("");
+  const [showPassword, setShowPassword] = useState(false); // State for show password toggle
+  const [passwordError, setPasswordError] = useState(""); // State for real-time password validation
+
   const navigate = useNavigate();
 
-  const validatePassword = () => {
-    if (password !== cpassword) {
-      return "Password and confirm password do not match";
-    } else if (password.length < 8 || password.length > 12) {
+  const validatePassword = (value) => {
+    if (!value) return "";
+    if (value.length < 8 || value.length > 12) {
       return "Password should be between 8 and 12 characters long";
-    } else if (!/(?=.*[A-Z])/.test(password)) {
+    } else if (!/(?=.*[A-Z])/.test(value)) {
       return "Password should include at least one uppercase letter";
-    } else if (!/(?=.*[a-z])/.test(password)) {
+    } else if (!/(?=.*[a-z])/.test(value)) {
       return "Password should include at least one lowercase letter";
-    } else if (!/(?=.*\d)/.test(password)) {
+    } else if (!/(?=.*\d)/.test(value)) {
       return "Password should include at least one digit";
-    } else if (!/(?=.*[@$!%*?&])/.test(password)) {
+    } else if (!/(?=.*[@$!%*?&])/.test(value)) {
       return "Password should include at least one special character";
     } else if (
-      password === username ||
-      password === email ||
-      password === "123456" ||
-      password === "password"
+      value === username ||
+      value === email ||
+      value === "123456" ||
+      value === "password"
     ) {
       return "Please choose a stronger password";
     }
     return "";
   };
 
-  const handleImageChange = (e) => {
-    setImage(e.target.files[0]);
+  const handlePasswordChange = (e) => {
+    const value = e.target.value;
+    setPassword(value);
+    const errorMessage = validatePassword(value);
+    setPasswordError(errorMessage);
   };
 
   const handleRegister = async (e) => {
     e.preventDefault();
-    const errorMessage = validatePassword();
+    const errorMessage = validatePassword(password);
     if (errorMessage) {
       setMessage(errorMessage);
       return;
@@ -55,6 +60,11 @@ function Register() {
 
     if (!fname || !lname || !username || !email || !password || !cpassword) {
       setMessage("All fields are required");
+      return;
+    }
+
+    if (password !== cpassword) {
+      setMessage("Password and confirm password do not match");
       return;
     }
 
@@ -115,7 +125,7 @@ function Register() {
                   name="image"
                   type="file"
                   accept="image/*"
-                  onChange={handleImageChange}
+                  onChange={(e) => setImage(e.target.files[0])}
                 />
               </div>
               <div className="input-group">
@@ -167,22 +177,38 @@ function Register() {
                 <input
                   id="password"
                   name="password"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   value={password}
-                  onChange={(e) => setPassword(e.target.value)}
+                  onChange={handlePasswordChange}
                   required
                 />
+                {passwordError && (
+                  <FormFeedback style={{ color: "red", fontSize: "0.8rem" }}>
+                    {passwordError}
+                  </FormFeedback>
+                )}
               </div>
               <div className="input-group">
                 <h5>Confirm Password</h5>
                 <input
                   id="cpassword"
                   name="cpassword"
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   value={cpassword}
                   onChange={(e) => setCPassword(e.target.value)}
                   required
                 />
+              </div>
+
+            
+              <div className="show-password">
+                <input
+                  type="checkbox"
+                  id="showPassword"
+                  checked={showPassword}
+                  onChange={() => setShowPassword(!showPassword)}
+                />
+                <label for="showPassword">Show Password</label>
               </div>
               <div className="input-group">
                 <FormFeedback style={{ color: "red", fontSize: "0.8rem" }}>

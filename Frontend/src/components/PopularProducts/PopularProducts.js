@@ -3,10 +3,10 @@ import CategoriesData from "./CategoriesData";
 import "./PopularProducts.css";
 import product1 from "../../images/product1.jpg";
 import product2 from "../../images/product3.jpg"
-import glass1 from "../../images/sculptures1.jpg";
-import glass2 from "../../images/sculptures2.jpg";
-import culture1 from "../../images/cultural1.jpg";
-import culture2 from "../../images/cultural2.jpg";
+import glass1 from "../../images/Wall Sculpture 1.jpg";
+import glass2 from "../../images/Wall sculptures 2.jpg";
+import culture1 from "../../images/Folk Cultural1.jpg";
+import culture2 from "../../images/Traditional Cultural2.jpg";
 
 const Popular=({products})=>{
     return(

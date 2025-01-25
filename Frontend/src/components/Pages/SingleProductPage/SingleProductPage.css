@@ -130,7 +130,7 @@
 }
 
 .add-to-cart-button:hover {
-    background-color: #fa1919ee;
+    background-color: green;
 }
 
 .divider {
@@ -244,7 +244,7 @@
 }
 
 .submit-review-button:hover {
-    background-color: #fa1919;
+    background-color: green;
 }
 
 @media screen and (max-width: 900px) {

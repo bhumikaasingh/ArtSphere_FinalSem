@@ -22,7 +22,7 @@ function Products({products,setProducts}){
             <Hero cName="hero-mid"
             heroimg={heroimg}
             title="Our Products"
-            description="Over 100 products to choose from"
+            description="Over different products you can choose Any"
             btnClass='hide'
             />
             

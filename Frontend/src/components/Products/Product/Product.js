@@ -24,7 +24,7 @@ const Product = ({ products }) => {
             <div className="product-info">
                 <span className="product-name">{products.name}</span>
                 <div className="review-rating">
-                    {"★".repeat(Math.floor(Math.random() * 5) + 1)}
+                    {"★★".repeat(Math.floor(Math.random() * 2) + 1)}
                 </div>
                 <span className="product-price">Rs {products.price}</span>
             </div>
