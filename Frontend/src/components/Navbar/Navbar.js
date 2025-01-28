@@ -20,7 +20,6 @@ function NavBar() {
     localStorage.removeItem("user");
     localStorage.removeItem("verificationCode");
 
-
     // Update the login state
     setIsLoggedIn(false);
     // Redirect to the home page
@@ -81,13 +80,21 @@ function NavBar() {
     );
   } else {
     loginOrLogoutButton = (
+      <div>
       <button
         onClick={() => {
           window.location.href = "/login";
-        }}
+        }} style={{margin : '10px'}} 
       >
         Login
       </button>
+
+      <button onClick={() => {
+          window.location.href = "/register";
+        }}>
+          Register
+      </button>
+      </div>
     );
   }
 

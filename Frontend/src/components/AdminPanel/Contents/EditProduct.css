@@ -7,6 +7,7 @@
   h2 {
     font-size: 1.5rem;
     
+    
   }
   .edit-product-container img {
     max-width: 100%;
@@ -47,7 +48,7 @@
   .edit-product-container form {
     display:contents;
     margin: 5rem;
-    max-width: 800px;
+    max-width: 900px;
     padding: 20px;
     border: 1px solid rgb(247, 155, 155);
     border-radius: 40px;
@@ -74,13 +75,13 @@
   .edit-product-container button[type="submit"] {
     font-size: 1rem;
     padding:15px 20px;
-    background-color: #ff1100;
+    background-color: red;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
   .edit-product-container button[type="submit"]:hover {
-    background-color: #d92b00;
+    background-color: red;
   }
 }

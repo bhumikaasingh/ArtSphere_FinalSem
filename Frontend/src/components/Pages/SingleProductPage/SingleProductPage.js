@@ -99,7 +99,7 @@ const SingleProductPage = ({ product }) => {
                                 </div>
                                 <button className='add-to-cart-button'
                                     onClick={() => handleAddToCart(product, quantity, product.price * quantity)}>
-                                    <FaCartPlus size={20} />
+                                    
                                     Add to Cart
                                 </button>
                             </div>

@@ -19,7 +19,7 @@
     height: auto;
     padding: 2rem;
     border-radius: 1rem;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: lightgray;
     flex-shrink: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -92,7 +92,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: #6b6b6b;
+    color: black;
     transition: background-color 0.3s;
 }
 
@@ -131,6 +131,7 @@
 
 .add-to-cart-button:hover {
     background-color: green;
+    border-bottom: 3px solid green;
 }
 
 .divider {
@@ -177,7 +178,7 @@
 
 .review-comment {
     font-size: 1.2rem;
-    color: gray;
+    color: black;
 }
 
 .add-review {
